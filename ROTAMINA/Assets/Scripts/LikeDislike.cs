@@ -15,7 +15,8 @@ public class LikeDislike : MonoBehaviour
     {
         if (isLike)
         {
-            if(CharacterCreator.Instance.likesCount >= CharacterCreator.Instance.makslikesCount && !toggle.isOn)
+            if((CharacterCreator.Instance.likesCount >= CharacterCreator.Instance.makslikesCount && !toggle.isOn) ||
+                (CharacterCreator.Instance.charProf.dislikes.Contains(likeNumber)))
             {
                 toggle.enabled = false;
             }
@@ -26,7 +27,8 @@ public class LikeDislike : MonoBehaviour
         }
         else
         {
-            if (CharacterCreator.Instance.dislikesCount >= CharacterCreator.Instance.maksdislikesCount && !toggle.isOn)
+            if ((CharacterCreator.Instance.dislikesCount >= CharacterCreator.Instance.maksdislikesCount && !toggle.isOn) ||
+                (CharacterCreator.Instance.charProf.likes.Contains(likeNumber)))
             {
                 toggle.enabled = false;
             }

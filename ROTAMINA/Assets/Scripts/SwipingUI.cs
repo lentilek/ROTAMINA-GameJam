@@ -133,11 +133,43 @@ public class SwipingUI : MonoBehaviour
         chosenProfiles.Add(profiles[index]);
         profiles.RemoveAt(index);
 
-        // talking
-        phoneMessages.SetActive(true);
-        phoneSwiping.SetActive(false);
-        npcData.SetActive(true);
-        NPCDataIN(chosenProfiles.Count - 1);
+        // matching
+        if (CheckIfMatched(chosenProfiles[chosenProfiles.Count - 1]))
+        {
+            phoneMessages.SetActive(true);
+            phoneSwiping.SetActive(false);
+            npcData.SetActive(true);
+            NPCDataIN(chosenProfiles.Count - 1);
+        }
+        else
+        {
+            ChanceImage(false);
+            ContinueGame();
+        }
+    }
+    private bool CheckIfMatched(NPCProfile npc)
+    {
+        int tempPoints = 0;
+        foreach (Likes like in npc.likes)
+        {
+            if (charProf.likes.Contains(like)) tempPoints++;
+            else if (charProf.dislikes.Contains(like)) tempPoints--;
+        }
+        foreach (Likes dislike in npc.dislikes)
+        {
+            if (charProf.dislikes.Contains(dislike)) tempPoints++;
+            else if (charProf.likes.Contains(dislike)) tempPoints--;
+        }
+        if (npc.personality.index == charProf.personality.index) tempPoints++;
+        else if ((npc.personality.index == 0 && charProf.personality.index == 3) || 
+            (npc.personality.index == 3 && charProf.personality.index == 0) ||
+            (npc.personality.index == 1 && charProf.personality.index == 2) ||
+            (npc.personality.index == 2 && charProf.personality.index == 1))
+        {
+            tempPoints--;
+        }
+        if (tempPoints >= 0) return true;
+        else return false;
     }
     private void NPCDataIN(int index)
     {
