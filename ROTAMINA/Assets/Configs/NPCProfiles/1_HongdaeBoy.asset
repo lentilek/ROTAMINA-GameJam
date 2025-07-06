@@ -13,37 +13,11 @@ MonoBehaviour:
   m_Name: 1_HongdaeBoy
   m_EditorClassIdentifier: 
   npcIndex: 1
-  art: {fileID: 0}
+  art: {fileID: 21300000, guid: 23633468e5a7e1f4c9dcec7883188d7d, type: 3}
   characterName: Sean
-  ageIndex: 0
-  zodiacIndex: 0
-  genderIndex: 1
-  personalityIndex: 1
-  likesTravels: 1
-  likesFood: 0
-  likesMusic: 0
-  likesMovies: 1
-  likesTVSeries: 0
-  likesFishing: 0
-  likesSport: 1
-  likesParties: 1
-  likesFashion: 0
-  likesVideoGames: 0
-  likesArt: 0
-  likesAnimals: 0
-  likesBooks: 0
-  likesNature: 0
-  dislikesTravels: 0
-  dislikesFood: 0
-  dislikesMusic: 0
-  dislikesMovies: 0
-  dislikesTVSeries: 1
-  dislikesFishing: 0
-  dislikesSport: 0
-  dislikesParties: 0
-  dislikesFashion: 0
-  dislikesVideoGames: 1
-  dislikesArt: 0
-  dislikesAnimals: 0
-  dislikesBooks: 0
-  dislikesNature: 0
+  age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
+  zodiac: {fileID: 11400000, guid: 927bc4fff7a4b5b4a869907c097df4e1, type: 2}
+  gender: {fileID: 11400000, guid: 28876639e861eff489eafc0a851be313, type: 2}
+  personality: {fileID: 11400000, guid: 86466aeda0a89684cac7a01ee47a8ad5, type: 2}
+  likes: 08000000060000000000000003000000
+  dislikes: 0900000004000000

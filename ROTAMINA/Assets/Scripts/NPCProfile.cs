@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,11 +6,8 @@ using UnityEngine.UI;
 public class NPCProfile : ScriptableObject
 {
     public int npcIndex;
-    public Image art;
+    public Sprite art, profilePic;
     public string characterName;
-    public int ageIndex, zodiacIndex, genderIndex, personalityIndex;
-    public bool likesTravels, likesFood, likesMusic, likesMovies, likesTVSeries, likesFishing, likesSport,
-        likesParties, likesFashion, likesVideoGames, likesArt, likesAnimals, likesBooks, likesNature;
-    public bool dislikesTravels, dislikesFood, dislikesMusic, dislikesMovies, dislikesTVSeries, dislikesFishing, dislikesSport,
-        dislikesParties, dislikesFashion, dislikesVideoGames, dislikesArt, dislikesAnimals, dislikesBooks, dislikesNature;
+    public OptionSO age, zodiac, gender, personality;
+    public List<Likes> likes = new List<Likes>(), dislikes = new List<Likes>();
 }
