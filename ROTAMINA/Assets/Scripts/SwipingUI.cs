@@ -4,11 +4,14 @@ using System.Collections.Generic;
 using System.Xml.Serialization;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.UI;
 
 public class SwipingUI : MonoBehaviour
 {
     public static SwipingUI Instance;
+
+    [Header("Player data")]
     public CharacterProfile charProf;
     [SerializeField] private TextMeshProUGUI charNameTXT;
     [SerializeField] private TextMeshProUGUI ageTXT, genTXT, zodTXT, persTXT, likesTXT;
@@ -16,14 +19,37 @@ public class SwipingUI : MonoBehaviour
     [SerializeField] private Image[] chancesImages;
     [SerializeField] private Sprite[] chancesOptions;
 
+    [Header("NPC profile")]
     [SerializeField] private List<NPCProfile> profiles = new List<NPCProfile>();
     private List<NPCProfile> profilesRandom = new List<NPCProfile>();
     [SerializeField] private GameObject npcProfile;
     [SerializeField] private Image npcPic;
     [SerializeField] private TextMeshProUGUI npcDataTXT;
+
+    [Header("Swipe animation")]
+    [SerializeField] private Vector3 swipePositionLeft;
+    [SerializeField] private Vector3 swipeRotate;
+    [SerializeField] private Vector3 swipePositionRight;
+    [SerializeField] private float animTime;
+
+    [Header("Prepare messages")]
+    [SerializeField] private GameObject phoneSwiping;
+    [SerializeField] private GameObject phoneMessages;
+    [SerializeField] private GameObject npcData;
+
+    [Header("NPC data")]
+    [SerializeField] private TextMeshProUGUI charNameTXTNPC;
+    [SerializeField] private TextMeshProUGUI ageTXTNPC, genTXTNPC, zodTXTNPC, persTXTNPC, likesTXTNPC;
+    [SerializeField] private Image zodiacImageNPC;
+    [SerializeField] private Image profilePicNPC;
+    [HideInInspector] public List<NPCProfile> chosenProfiles = new List<NPCProfile>();
+
     private void Awake()
     {
         Instance = this;
+        phoneSwiping.SetActive(true);
+        phoneMessages.SetActive(false);
+        npcData.SetActive(false);
         PlayerDataIN();
         RandomizeProfiles();
     }
@@ -37,7 +63,7 @@ public class SwipingUI : MonoBehaviour
         persTXT.text = charProf.personality.text;
         string likesText = CreateLikesList(charProf.likes.ToArray());
         string dislikesText = CreateLikesList(charProf.dislikes.ToArray());
-        likesTXT.text = $"Likes: {likesText}\nDislikes: {dislikesText}";
+        likesTXT.text = $"Likes: {likesText}\n\nDislikes: {dislikesText}";
         foreach (Image image in chancesImages)
         {
             image.sprite = chancesOptions[0];
@@ -71,8 +97,6 @@ public class SwipingUI : MonoBehaviour
         profiles.Add(profile);
         profilesRandom.Remove(profile);
     }
-    [SerializeField] Vector3 swipePositionLeft, swipeRotate, swipePositionRight;
-    [SerializeField] float animTime;
     public void LeftButton()
     {
         StartCoroutine(SwipeAnimLeft());
@@ -99,14 +123,34 @@ public class SwipingUI : MonoBehaviour
         rt.DOAnchorPos(swipePositionRight, animTime);
         yield return new WaitForSeconds(animTime);
         rt.anchoredPosition = new Vector3(0, 0, 0);
-        profiles.RemoveAt(profiles.Count-1);
+
+        int index = profiles.Count - 1;
+        chosenProfiles.Add(profiles[index]);
+        profiles.RemoveAt(index);
 
         // talking
+        phoneMessages.SetActive(true);
+        phoneSwiping.SetActive(false);
+        npcData.SetActive(true);
+        NPCDataIN(chosenProfiles.Count - 1);
 
-        if (profilesRandom.Count > 0) FillProfile(profilesRandom[Random.Range(0, profilesRandom.Count)]);
+        /*if (profilesRandom.Count > 0) FillProfile(profilesRandom[Random.Range(0, profilesRandom.Count)]);
         else
         {
             RandomizeProfiles();
-        }
+        }*/
+    }
+    private void NPCDataIN(int index)
+    {
+        charNameTXTNPC.text = chosenProfiles[index].characterName;
+        profilePicNPC.sprite = chosenProfiles[index].profilePic;
+        ageTXTNPC.text = chosenProfiles[index].age.text;
+        genTXTNPC.text = chosenProfiles[index].gender.text;
+        zodTXTNPC.text = chosenProfiles[index].zodiac.text;
+        zodiacImageNPC.sprite = chosenProfiles[index].zodiac.sprite;
+        persTXTNPC.text = chosenProfiles[index].personality.text;
+        string likesText = CreateLikesList(chosenProfiles[index].likes.ToArray());
+        string dislikesText = CreateLikesList(chosenProfiles[index].dislikes.ToArray());
+        likesTXTNPC.text = $"Likes: {likesText}\n\nDislikes: {dislikesText}";
     }
 }

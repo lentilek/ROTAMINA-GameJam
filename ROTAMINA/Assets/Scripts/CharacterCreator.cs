@@ -17,6 +17,12 @@ public class CharacterCreator : MonoBehaviour
     [SerializeField] private OptionSO[] ageOptions, genderOptions, zodiacOptions, personOptions;
     [HideInInspector] public int likesCount, dislikesCount;
     public int makslikesCount, maksdislikesCount, minlikesCount, mindislikesCount;
+
+    [Header("Phone animation")]
+    [SerializeField] private GameObject phoneScreen, phoneCase;
+    [SerializeField] private Vector3 vectorRotate, vectorScale;
+    [SerializeField] private float timeAnim;
+    [SerializeField] private GameObject swipeUI;
     private void Awake()
     {
         Instance = this;
@@ -105,10 +111,6 @@ public class CharacterCreator : MonoBehaviour
             StartCoroutine(PhoneAnim());
         }
     }
-    [SerializeField] private GameObject phoneScreen, phoneCase;
-    [SerializeField] private Vector3 vectorRotate, vectorScale;
-    [SerializeField] private float timeAnim;
-    [SerializeField] private GameObject swipeUI;
     IEnumerator PhoneAnim()
     {
         phoneScreen.SetActive(false);

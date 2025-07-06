@@ -617,6 +617,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6944443980916068938, guid: 8f3097c6694185a4cbd307817de15038, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804092356333190575, guid: 8f3097c6694185a4cbd307817de15038, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8937033866091279631, guid: 8f3097c6694185a4cbd307817de15038, type: 3}
       propertyPath: m_Name
       value: SwipingUI

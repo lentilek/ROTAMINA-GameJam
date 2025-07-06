@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcIndex: 3
   art: {fileID: 21300000, guid: 81ae4d30dcd2f1848bfbe586db1b665c, type: 3}
+  profilePic: {fileID: -1921240149, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Chris
   age: {fileID: 11400000, guid: c61c32c5c86c18d4fa17b2364c7858df, type: 2}
   zodiac: {fileID: 11400000, guid: 4a8d12c5fe03230479a11c74c7c1b5fd, type: 2}
