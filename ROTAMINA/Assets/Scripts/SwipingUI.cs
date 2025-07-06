@@ -5,6 +5,7 @@ using System.Xml.Serialization;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Analytics;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SwipingUI : MonoBehaviour
@@ -201,5 +202,10 @@ public class SwipingUI : MonoBehaviour
         {
             RandomizeProfiles();
         }
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
