@@ -25,6 +25,7 @@ public class SwipingUI : MonoBehaviour
     [SerializeField] private GameObject npcProfile;
     [SerializeField] private Image npcPic;
     [SerializeField] private TextMeshProUGUI npcDataTXT;
+    [SerializeField] private TextMeshProUGUI npcOneLinerTXT;
 
     [Header("Swipe animation")]
     [SerializeField] private Vector3 swipePositionLeft;
@@ -96,6 +97,7 @@ public class SwipingUI : MonoBehaviour
     {
         npcPic.sprite = profile.art;
         npcDataTXT.text = $"{profile.characterName}, {profile.age.text}";
+        npcOneLinerTXT.text = profile.oneLiner;
         profiles.Add(profile);
         profilesRandom.Remove(profile);
     }

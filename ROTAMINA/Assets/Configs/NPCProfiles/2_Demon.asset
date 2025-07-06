@@ -16,6 +16,7 @@ MonoBehaviour:
   art: {fileID: 21300000, guid: 202398cd7d9816a4ebc9c8c4f3065281, type: 3}
   profilePic: {fileID: -2144667396, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Nomed
+  oneLiner: Don't swipe me if you gonna waste my time.
   age: {fileID: 11400000, guid: 1728263db8d334147973f8db0b8c8d1b, type: 2}
   zodiac: {fileID: 11400000, guid: 2478f181ca8718e4c82bdea85081f351, type: 2}
   gender: {fileID: 11400000, guid: 5266e62ad9698af4399fe276018504c7, type: 2}

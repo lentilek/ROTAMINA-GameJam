@@ -116,6 +116,7 @@ public class CharacterCreator : MonoBehaviour
         phoneScreen.SetActive(false);
         phoneCase.transform.DORotate(vectorRotate, timeAnim);
         phoneCase.transform.DOScale(vectorScale, timeAnim);
+        phoneCase.GetComponent<RectTransform>().DOAnchorPos(new Vector2(13, 0), timeAnim);
         yield return new WaitForSeconds(timeAnim+.3f);
         this.gameObject.SetActive(false);
         swipeUI.SetActive(true);
