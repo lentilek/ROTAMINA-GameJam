@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068cdc55c034507489dec40d588b42db, type: 3}
+  m_Name: 8_Ekoterrorystka
+  m_EditorClassIdentifier: 
+  npcIndex: 8
+  art: {fileID: -1625494428, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
+  profilePic: {fileID: 1032812884, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
+  characterName: Martha
+  oneLiner: Save the turtles ksksks
+  age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
+  zodiac: {fileID: 11400000, guid: 78d6bea6930d43e4080f1d01845e4791, type: 2}
+  gender: {fileID: 11400000, guid: 4520ad20fcf894f4381a28753549b673, type: 2}
+  personality: {fileID: 11400000, guid: 89f4fdae2a486164cbd8307bf513c1e7, type: 2}
+  likes: 0b0000000d0000000c000000
+  dislikes: 08000000050000000700000000000000
+  startingDialogue: You are so skibidi. Just kidding. Don't block me please.

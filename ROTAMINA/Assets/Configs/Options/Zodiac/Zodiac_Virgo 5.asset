@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19eb22f852246604cae49329c9005102, type: 3}
-  m_Name: Zodiac 5
+  m_Name: Zodiac_Virgo 5
   m_EditorClassIdentifier: 
   index: 5
   sprite: {fileID: 467064430, guid: fbedb8cd767e1d945a7ab8909b4fbb8b, type: 3}

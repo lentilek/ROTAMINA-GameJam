@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 2_Demon
   m_EditorClassIdentifier: 
   npcIndex: 2
-  art: {fileID: 21300000, guid: 202398cd7d9816a4ebc9c8c4f3065281, type: 3}
+  art: {fileID: 60162508, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
   profilePic: {fileID: -2144667396, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Nomed
   oneLiner: Don't swipe me if you gonna waste my time.

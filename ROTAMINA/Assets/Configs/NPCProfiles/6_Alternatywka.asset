@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068cdc55c034507489dec40d588b42db, type: 3}
+  m_Name: 6_Alternatywka
+  m_EditorClassIdentifier: 
+  npcIndex: 6
+  art: {fileID: -1844862863, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
+  profilePic: {fileID: -581351331, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
+  characterName: Zuzia
+  oneLiner: Kiss me hard before you go
+  age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
+  zodiac: {fileID: 11400000, guid: d85da0f88f438fe4e9bf269681fb17df, type: 2}
+  gender: {fileID: 11400000, guid: d241427bca18970409dbc3cef5baee74, type: 2}
+  personality: {fileID: 11400000, guid: 051484f06f316a14692b3b0e96b30e55, type: 2}
+  likes: 070000000a0000000200000003000000
+  dislikes: 0000000006000000
+  startingDialogue: You are so skibidi. Just kidding. Don't block me please.

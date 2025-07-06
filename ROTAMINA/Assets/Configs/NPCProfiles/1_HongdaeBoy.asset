@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1_HongdaeBoy
   m_EditorClassIdentifier: 
   npcIndex: 1
-  art: {fileID: 21300000, guid: 23633468e5a7e1f4c9dcec7883188d7d, type: 3}
+  art: {fileID: 972748017, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
   profilePic: {fileID: 93409665, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Sean
   oneLiner: I'm looking for someone who's open mindeu

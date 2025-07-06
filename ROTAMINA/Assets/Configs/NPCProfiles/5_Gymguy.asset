@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 068cdc55c034507489dec40d588b42db, type: 3}
-  m_Name: 3_Meme
+  m_Name: 5_Gymguy
   m_EditorClassIdentifier: 
-  npcIndex: 3
-  art: {fileID: -506184719, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
-  profilePic: {fileID: -1921240149, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
-  characterName: Chris
-  oneLiner: Sigma Rizz Gyatt
+  npcIndex: 5
+  art: {fileID: -1032212836, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
+  profilePic: {fileID: 1131470718, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
+  characterName: Eric
+  oneLiner: You can find me here -> Fitness Academy
   age: {fileID: 11400000, guid: c61c32c5c86c18d4fa17b2364c7858df, type: 2}
-  zodiac: {fileID: 11400000, guid: 4a8d12c5fe03230479a11c74c7c1b5fd, type: 2}
+  zodiac: {fileID: 11400000, guid: cdb11a5d8955229498d5b6a4c32b7bdf, type: 2}
   gender: {fileID: 11400000, guid: 28876639e861eff489eafc0a851be313, type: 2}
-  personality: {fileID: 11400000, guid: e70dca745b350e1479161a0296645977, type: 2}
-  likes: 010000000b0000000400000009000000
-  dislikes: 06000000070000000a000000
+  personality: {fileID: 11400000, guid: 89f4fdae2a486164cbd8307bf513c1e7, type: 2}
+  likes: 0600000000000000020000000b000000
+  dislikes: 080000000100000009000000
   startingDialogue: You are so skibidi. Just kidding. Don't block me please.

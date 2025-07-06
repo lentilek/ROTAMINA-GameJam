@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19eb22f852246604cae49329c9005102, type: 3}
-  m_Name: Zodiac 10
+  m_Name: Zodiac_Libra 6
   m_EditorClassIdentifier: 
-  index: 10
-  sprite: {fileID: 161719621, guid: fbedb8cd767e1d945a7ab8909b4fbb8b, type: 3}
-  text: Aquarius
+  index: 6
+  sprite: {fileID: 1381881681, guid: fbedb8cd767e1d945a7ab8909b4fbb8b, type: 3}
+  text: Libra

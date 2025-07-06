@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068cdc55c034507489dec40d588b42db, type: 3}
+  m_Name: 9_Miku
+  m_EditorClassIdentifier: 
+  npcIndex: 9
+  art: {fileID: 1213084943, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
+  profilePic: {fileID: 1646100849, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
+  characterName: Ruby-chan
+  oneLiner: Nyan Nyan :3
+  age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
+  zodiac: {fileID: 11400000, guid: ffba6462641f67b40a28d6ec20bf1c84, type: 2}
+  gender: {fileID: 11400000, guid: d241427bca18970409dbc3cef5baee74, type: 2}
+  personality: {fileID: 11400000, guid: e70dca745b350e1479161a0296645977, type: 2}
+  likes: 0700000001000000040000000c000000
+  dislikes: 060000000d000000
+  startingDialogue: You are so skibidi. Just kidding. Don't block me please.

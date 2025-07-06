@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19eb22f852246604cae49329c9005102, type: 3}
-  m_Name: Zodiac 11
+  m_Name: Zodiac_Taurus 1
   m_EditorClassIdentifier: 
-  index: 11
-  sprite: {fileID: -247608064, guid: fbedb8cd767e1d945a7ab8909b4fbb8b, type: 3}
-  text: Pisces
+  index: 1
+  sprite: {fileID: -1688715044, guid: fbedb8cd767e1d945a7ab8909b4fbb8b, type: 3}
+  text: Taurus

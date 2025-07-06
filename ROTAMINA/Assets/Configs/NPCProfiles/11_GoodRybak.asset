@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068cdc55c034507489dec40d588b42db, type: 3}
+  m_Name: 11_GoodRybak
+  m_EditorClassIdentifier: 
+  npcIndex: 11
+  art: {fileID: -314213256, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
+  profilePic: {fileID: -1980329303, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
+  characterName: Richard
+  oneLiner: I know good local lakes
+  age: {fileID: 11400000, guid: 1728263db8d334147973f8db0b8c8d1b, type: 2}
+  zodiac: {fileID: 11400000, guid: b4bf9662d0ffb0641bd467f102726e8e, type: 2}
+  gender: {fileID: 11400000, guid: 28876639e861eff489eafc0a851be313, type: 2}
+  personality: {fileID: 11400000, guid: 051484f06f316a14692b3b0e96b30e55, type: 2}
+  likes: 050000000d0000000c000000
+  dislikes: 0800000000000000
+  startingDialogue: You are so skibidi. Just kidding. Don't block me please.
