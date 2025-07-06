@@ -10,4 +10,5 @@ public class NPCProfile : ScriptableObject
     public string characterName;
     public OptionSO age, zodiac, gender, personality;
     public List<Likes> likes = new List<Likes>(), dislikes = new List<Likes>();
+    public string startingDialogue;
 }

@@ -22,3 +22,4 @@ MonoBehaviour:
   personality: {fileID: 11400000, guid: e70dca745b350e1479161a0296645977, type: 2}
   likes: 010000000b0000000400000009000000
   dislikes: 06000000070000000a000000
+  startingDialogue: You are so skibidi. Just kidding. Don't block me please.

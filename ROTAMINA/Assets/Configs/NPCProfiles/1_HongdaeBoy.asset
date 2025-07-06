@@ -22,3 +22,5 @@ MonoBehaviour:
   personality: {fileID: 11400000, guid: 86466aeda0a89684cac7a01ee47a8ad5, type: 2}
   likes: 08000000060000000000000003000000
   dislikes: 0900000004000000
+  startingDialogue: Hi there!! I've seen we have a match! It means we should get
+    to know each other! I hope you are open minded

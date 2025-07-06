@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
+  m_Name: Options 1
+  m_EditorClassIdentifier: 
+  conversationStart:
+  - You seem like a very peacful person.
+  - You are such a fun and optimistic person!
+  - It seems like you are not avoiding challenges in your life.
+  - Am I talking with an old soul?
+  choicesTXT:
+  - What type of books do you find most comforting?
+  - Is there an activity or hobby that always boosts your mood?
+  - Do you enjoy fast-paced environments where things are always changing?
+  - What kind of music speaks to your emotions the most?
+  interstType: 0
+  optionRelatedIndex: 02000000000000000100000003000000
+  conversationEndOptionsPos:
+  - I usually reach for something that allows me to slow down and reflect. It makes
+    a really healing expierience that helps me find my inner peace.
+  - There are definitely things that lift my spirits, especially if they let me move
+    around, be creative, or share good moments with others.
+  - "There\u2019s definitely something energizing about it that keep you on your
+    toes - they can be demanding, but also full of opportunity."
+  - "It\u2019s usually the kind of music that captures something subtle. A certain
+    mood or feeling that words alone don\u2019t quite express."
+  conversationEndOptionsNeutral:
+  - I'm not really into that.
+  - That's a difficult question...
+  - I don't know.
+  - This is... complicated.
+  - I've never thought about that to be honest.
+  conversationEndOptionsNegative:
+  - What kind of question is that?!
+  - Let's talk about something else, shall we?
+  - How am I spoused to know?!
+  - This conversation is getting boring...
+  - ...are you a weirdo?

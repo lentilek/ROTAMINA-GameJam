@@ -133,12 +133,6 @@ public class SwipingUI : MonoBehaviour
         phoneSwiping.SetActive(false);
         npcData.SetActive(true);
         NPCDataIN(chosenProfiles.Count - 1);
-
-        /*if (profilesRandom.Count > 0) FillProfile(profilesRandom[Random.Range(0, profilesRandom.Count)]);
-        else
-        {
-            RandomizeProfiles();
-        }*/
     }
     private void NPCDataIN(int index)
     {
@@ -152,5 +146,18 @@ public class SwipingUI : MonoBehaviour
         string likesText = CreateLikesList(chosenProfiles[index].likes.ToArray());
         string dislikesText = CreateLikesList(chosenProfiles[index].dislikes.ToArray());
         likesTXTNPC.text = $"Likes: {likesText}\n\nDislikes: {dislikesText}";
+        DialogueSystem.Instance.npc = chosenProfiles[index];
+        StartCoroutine(DialogueSystem.Instance.ConversationStart());
+    }
+    public void ContinueGame()
+    {
+        phoneSwiping.SetActive(true);
+        phoneMessages.SetActive(false);
+        npcData.SetActive(false);
+        if (profilesRandom.Count > 0) FillProfile(profilesRandom[Random.Range(0, profilesRandom.Count)]);
+        else
+        {
+            RandomizeProfiles();
+        }
     }
 }

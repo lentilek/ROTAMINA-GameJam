@@ -22,3 +22,5 @@ MonoBehaviour:
   personality: {fileID: 11400000, guid: 051484f06f316a14692b3b0e96b30e55, type: 2}
   likes: 0a0000000200000007000000
   dislikes: 050000000100000008000000
+  startingDialogue: I decided to give you chance. I hope you didn't lie in your bio.
+    Lots of liars nowadays.
