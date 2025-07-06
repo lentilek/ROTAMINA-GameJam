@@ -44,9 +44,11 @@ public class SwipingUI : MonoBehaviour
     [SerializeField] private Image profilePicNPC;
     [HideInInspector] public List<NPCProfile> chosenProfiles = new List<NPCProfile>();
 
+    [HideInInspector] public int chancesUsed;
     private void Awake()
     {
         Instance = this;
+        chancesUsed = 0;
         phoneSwiping.SetActive(true);
         phoneMessages.SetActive(false);
         npcData.SetActive(false);
@@ -115,6 +117,7 @@ public class SwipingUI : MonoBehaviour
     }
     public void RightButton()
     {
+        chancesUsed++;
         StartCoroutine (SwipeAnimRight());
     }
     IEnumerator SwipeAnimRight()
@@ -148,6 +151,11 @@ public class SwipingUI : MonoBehaviour
         likesTXTNPC.text = $"Likes: {likesText}\n\nDislikes: {dislikesText}";
         DialogueSystem.Instance.npc = chosenProfiles[index];
         StartCoroutine(DialogueSystem.Instance.ConversationStart());
+    }
+    public void ChanceImage(bool positive)
+    {
+        if (positive) chancesImages[chancesUsed - 1].sprite = chancesOptions[2];
+        else chancesImages[chancesUsed - 1].sprite = chancesOptions[1];
     }
     public void ContinueGame()
     {

@@ -1,6 +1,7 @@
 using DG.Tweening;
 using System.Collections;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DialogueSystem : MonoBehaviour
@@ -75,11 +76,13 @@ public class DialogueSystem : MonoBehaviour
                 }
                 if (points >= 3)
                 {
+                    SwipingUI.Instance.ChanceImage(true);
                     StartCoroutine(EndTalk(endDialoguesPos[Random.Range(0, endDialoguesPos.Length)]));
                 }
                 else
                 {
-                    StartCoroutine(EndTalk(endDialoguesPos[Random.Range(0, endDialoguesPos.Length)]));
+                    SwipingUI.Instance.ChanceImage(false);
+                    StartCoroutine(EndTalk(endDialoguesNeg[Random.Range(0, endDialoguesNeg.Length)]));
                 }
                 stage++;
                 break;
@@ -110,8 +113,12 @@ public class DialogueSystem : MonoBehaviour
         {
             go.GetComponent<CanvasGroup>().alpha = 0f;
         }
-        dialogueStartTXT.text = dialogue.conversationStart[0];
-        dialogueStart.GetComponent<CanvasGroup>().DOFade(1, .5f);
+        if (stage == 1 || stage == 3) dialogueStartTXT.text = dialogue.conversationStart[Random.Range(0, dialogue.conversationStart.Length)];
+        else
+        {
+            dialogueStartTXT.text = dialogue.conversationStart[npc.personality.index];
+        }
+            dialogueStart.GetComponent<CanvasGroup>().DOFade(1, .5f);
         yield return new WaitForSeconds(.5f);
         int i = 0;
         foreach (GameObject go in dialogueOptions)
@@ -128,8 +135,44 @@ public class DialogueSystem : MonoBehaviour
             if (i != index) dialogueOptions[i].GetComponent<CanvasGroup>().DOFade(0, .3f);
         }
         /// count points
-        int indexEnd = 0;
-        dialogueEndTXT.text = currentDialogue.conversationEndOptionsPos[indexEnd];
+        int prevPoints = points;
+        if (stage == 1 || stage == 3)
+        {
+            Likes like = currentDialogue.interstType;
+            if (npc.likes.Contains(like))
+            {
+                if (index == 0) points++;
+                else if (index == 3) points--;
+            }
+            else if (npc.dislikes.Contains(like))
+            {
+                if (index == 0) points--;
+                else if (index == 3) points++;
+            }
+            else
+            {
+                if (index == 1 || index == 2) points++;
+                else points--;
+            }
+        }
+        else
+        {
+            int npcIndex = npc.personality.index;
+            int chosen = currentDialogue.optionRelatedIndex[index];
+            if (chosen == npcIndex) points++;
+            else
+            {
+                if (!((chosen == 0 && npcIndex == 1) || (chosen == 1 && npcIndex == 0) || (chosen == 2 && npcIndex == 3) ||
+                    (chosen == 3 && npcIndex == 2))) points--;
+            }
+        }
+        if (prevPoints == points) dialogueEndTXT.text = currentDialogue.conversationEndOptionsNeutral[Random.Range(0, currentDialogue.conversationEndOptionsNeutral.Length)];
+        else if (prevPoints < points)
+        {
+            if (stage == 1 || stage == 3) dialogueEndTXT.text = currentDialogue.conversationEndOptionsPos[Random.Range(0, currentDialogue.conversationEndOptionsPos.Length)];
+            else dialogueEndTXT.text = currentDialogue.conversationEndOptionsPos[index];
+        }
+        else dialogueEndTXT.text = currentDialogue.conversationEndOptionsNegative[Random.Range(0, currentDialogue.conversationEndOptionsNegative.Length)];
         dialogueEnd.GetComponent<CanvasGroup>().DOFade(1, .5f);
         continueDialogueButton.SetActive(true);
     }
