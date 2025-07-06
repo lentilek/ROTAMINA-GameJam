@@ -621,6 +621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwipingUI
       objectReference: {fileID: 0}
+    - target: {fileID: 8937033866091279631, guid: 8f3097c6694185a4cbd307817de15038, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
