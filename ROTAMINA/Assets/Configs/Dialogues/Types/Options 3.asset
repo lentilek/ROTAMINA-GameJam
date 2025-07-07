@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
-  m_Name: Options 1
+  m_Name: Options 3
   m_EditorClassIdentifier: 
   conversationStart:
   - You seem like a very peacful person.
@@ -18,21 +18,25 @@ MonoBehaviour:
   - It seems like you are not avoiding challenges in your life.
   - Am I talking with an old soul?
   choicesTXT:
-  - Is there an activity or hobby that always boosts your mood?
-  - Do you enjoy fast-paced environments where things are always changing?
-  - What kind of music speaks to your emotions the most?
-  - What type of books do you find most comforting?
+  - How do you usually spend your weekends?
+  - How do you usually spend time with your friends - are you more about planning
+    or spontaneous meetups?
+  - Do you prefer spending time alone or with a small group of your closests friends?
+  - Do you find meaning in reflecting on the past, or are you more focused on the
+    future?
   interstType: 0
-  optionRelatedIndex: 00000000010000000300000002000000
+  optionRelatedIndex: 00000000010000000200000003000000
   conversationEndOptionsPos:
-  - There are definitely things that lift my spirits, especially if they let me move
-    around, be creative, or share good moments with others.
-  - "There\u2019s definitely something energizing about it that keep you on your
-    toes - they can be demanding, but also full of opportunity."
-  - "It\u2019s usually the kind of music that captures something subtle. A certain
-    mood or feeling that words alone don\u2019t quite express."
-  - I usually reach for something that allows me to slow down and reflect. It makes
-    a really healing expierience that helps me find my inner peace.
+  - "Weekends tend to be a mix - sometimes they're packed with plans, other times
+    they\u2019re more about catching up with whatever felt left behind during the
+    week."
+  - Sometimes a last-minute plan feels just right, other times I like to set things
+    up in advance to make the most of it. How do you balance your social life with
+    y
+  - I feel most at ease in settings where the atmosphere is relaxed and where I can
+    simply be myself.
+  - Both have their place. Looking back often brings perspective, while looking ahead
+    gives things direction. I try to move between the two.
   conversationEndOptionsNeutral:
   - I'm not really into that.
   - That's a difficult question...

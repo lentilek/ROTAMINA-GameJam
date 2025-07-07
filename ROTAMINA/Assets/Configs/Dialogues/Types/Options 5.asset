@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
-  m_Name: Options 1
+  m_Name: Options 5
   m_EditorClassIdentifier: 
   conversationStart:
   - You seem like a very peacful person.
@@ -18,21 +18,21 @@ MonoBehaviour:
   - It seems like you are not avoiding challenges in your life.
   - Am I talking with an old soul?
   choicesTXT:
-  - Is there an activity or hobby that always boosts your mood?
-  - Do you enjoy fast-paced environments where things are always changing?
-  - What kind of music speaks to your emotions the most?
-  - What type of books do you find most comforting?
+  - Do you enjoy spending time alone, or does it depend on your mood?
+  - Do you like spending time in nature?
+  - What makes you happy the most?
+  - "Is there a passion you\u2019ve had for a long time that still drives you today?"
   interstType: 0
-  optionRelatedIndex: 00000000010000000300000002000000
+  optionRelatedIndex: 01000000020000000300000000000000
   conversationEndOptionsPos:
-  - There are definitely things that lift my spirits, especially if they let me move
-    around, be creative, or share good moments with others.
-  - "There\u2019s definitely something energizing about it that keep you on your
-    toes - they can be demanding, but also full of opportunity."
-  - "It\u2019s usually the kind of music that captures something subtle. A certain
-    mood or feeling that words alone don\u2019t quite express."
-  - I usually reach for something that allows me to slow down and reflect. It makes
-    a really healing expierience that helps me find my inner peace.
+  - "There\u2019s a certain calm that comes with solitude, but it really depends.
+    Sometimes strong connection is just as grounding as quiet."
+  - I like places where I can relax and find some peace and quiet. Not the biggest
+    fan of all those crowded places with tons of people.
+  - "It\u2019s often the small, spontaneous things- moments that feel real, shared
+    laughter, or when something unexpectedly brightens the day."
+  - There are definitely interests that have stayed with me over the years but it's
+    a topic for a different conversation
   conversationEndOptionsNeutral:
   - I'm not really into that.
   - That's a difficult question...

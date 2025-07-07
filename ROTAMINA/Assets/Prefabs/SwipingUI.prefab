@@ -3291,6 +3291,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d3a4d406f662aa54399f369c6f7786a0, type: 2}
   typeDialogues:
   - {fileID: 11400000, guid: 87ef773aeaf545d44a567d2c1aa19c41, type: 2}
+  - {fileID: 11400000, guid: 00e1e4de6fb20104f9dcd2eec4df3c50, type: 2}
+  - {fileID: 11400000, guid: 0bb78fa468e400a4aa94c1b35546dfd6, type: 2}
+  - {fileID: 11400000, guid: 13169a0575f579041b54a31266326197, type: 2}
+  - {fileID: 11400000, guid: a7fdc2a3c58b68d458525a7f65b038c1, type: 2}
   endDialoguesPos:
   - That was really nice. I hope we talk again soon.
   - 'Great talking. Let''s meet each other! '

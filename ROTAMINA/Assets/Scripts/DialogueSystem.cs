@@ -1,5 +1,6 @@
 using DG.Tweening;
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -10,8 +11,8 @@ public class DialogueSystem : MonoBehaviour
 
     [Header("Dialogues Configs")]
     [SerializeField] private string[] startDialogues;
-    [SerializeField] private Dialogue[] interestDialogues;
-    [SerializeField] private Dialogue[] typeDialogues;
+    [SerializeField] private List<Dialogue> interestDialogues = new List<Dialogue>();
+    [SerializeField] private List<Dialogue> typeDialogues = new List<Dialogue>();
     [SerializeField] private string[] endDialoguesPos, endDialoguesNeg;
 
     [Header("Objects")]
@@ -25,7 +26,7 @@ public class DialogueSystem : MonoBehaviour
     [HideInInspector] public NPCProfile npc;
     private int stage;
     private int points;
-    private int interestIndex, typeIndex;
+    private Dialogue interestIndex, typeIndex;
     private void Awake()
     {
         Instance = this;
@@ -57,16 +58,16 @@ public class DialogueSystem : MonoBehaviour
         {
             case 0:
                 dialogueStart2.GetComponent<CanvasGroup>().alpha = 0f;
-                StartCoroutine(InitiateConvesration(interestDialogues[Random.Range(0, interestDialogues.Length)])); 
+                StartCoroutine(InitiateConvesration(interestDialogues[Random.Range(0, interestDialogues.Count)])); 
                 break;
             case 1:
-                StartCoroutine(InitiateConvesration(typeDialogues[Random.Range(0, typeDialogues.Length)]));
+                StartCoroutine(InitiateConvesration(typeDialogues[Random.Range(0, typeDialogues.Count)]));
                 break;
             case 2:
-                StartCoroutine(InitiateConvesration(interestDialogues[Random.Range(0, interestDialogues.Length)]));
+                StartCoroutine(InitiateConvesration(interestDialogues[Random.Range(0, interestDialogues.Count)]));
                 break;
             case 3:
-                StartCoroutine(InitiateConvesration(typeDialogues[Random.Range(0, typeDialogues.Length)]));
+                StartCoroutine(InitiateConvesration(typeDialogues[Random.Range(0, typeDialogues.Count)]));
                 break;
             case 4:
                 dialogueEnd.GetComponent<CanvasGroup>().alpha = 0f;
@@ -87,6 +88,8 @@ public class DialogueSystem : MonoBehaviour
                 stage++;
                 break;
             case 5:
+                interestDialogues.Add(interestIndex);
+                typeDialogues.Add(typeIndex);
                 SwipingUI.Instance.ContinueGame();
                 break;
             default: break;
@@ -107,6 +110,16 @@ public class DialogueSystem : MonoBehaviour
         stage++;
         continueDialogueButton.SetActive(false);
         currentDialogue = dialogue;
+        if (stage == 1)
+        {
+            interestIndex = currentDialogue;
+            interestDialogues.Remove(currentDialogue);
+        }
+        if (stage == 2)
+        {
+            typeIndex = currentDialogue;
+            typeDialogues.Remove(currentDialogue);
+        }
         dialogueStart.GetComponent<CanvasGroup>().alpha = 0f;
         dialogueEnd.GetComponent<CanvasGroup>().alpha = 0f;
         foreach (GameObject go in dialogueOptions)
@@ -118,7 +131,7 @@ public class DialogueSystem : MonoBehaviour
         {
             dialogueStartTXT.text = dialogue.conversationStart[npc.personality.index];
         }
-            dialogueStart.GetComponent<CanvasGroup>().DOFade(1, .5f);
+        dialogueStart.GetComponent<CanvasGroup>().DOFade(1, .5f);
         yield return new WaitForSeconds(.5f);
         int i = 0;
         foreach (GameObject go in dialogueOptions)
