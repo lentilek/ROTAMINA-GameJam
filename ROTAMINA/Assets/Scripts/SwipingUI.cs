@@ -49,6 +49,8 @@ public class SwipingUI : MonoBehaviour
     private NPCProfile currentProfile;
     [HideInInspector] public int chancesUsed;
     [SerializeField] private GameObject finalPart;
+
+    public GameObject nope, matched, unmatched, finalmatch;
     private void Awake()
     {
         Instance = this;
@@ -56,6 +58,10 @@ public class SwipingUI : MonoBehaviour
         phoneSwiping.SetActive(true);
         phoneMessages.SetActive(false);
         npcData.SetActive(false);
+        nope.SetActive(false);
+        matched.SetActive(false);
+        unmatched.SetActive(false);
+        finalmatch.SetActive(false);
         PlayerDataIN();
         RandomizeProfiles();
     }
@@ -142,6 +148,7 @@ public class SwipingUI : MonoBehaviour
         if (CheckIfMatched(chosenProfiles[chosenProfiles.Count - 1]))
         {
             AudioManager.Instance.PlaySound("matched");
+            StartCoroutine(SPecialAnimation(matched, "Match"));
             phoneMessages.SetActive(true);
             phoneSwiping.SetActive(false);
             npcData.SetActive(true);
@@ -150,6 +157,7 @@ public class SwipingUI : MonoBehaviour
         else
         {
             AudioManager.Instance.PlaySound("nope");
+            StartCoroutine(SPecialAnimation(nope, "nope"));
             ChanceImage(false);
             ContinueGame();
         }
@@ -236,6 +244,13 @@ public class SwipingUI : MonoBehaviour
             FinalPart.Instance.chosenProfiles = chosenProfiles;
             this.gameObject.SetActive(false);
         }
+    }
+     public IEnumerator SPecialAnimation(GameObject anim, string animationName)
+    {
+        anim.SetActive(true);
+        anim.GetComponent<Animator>().Play(animationName);
+        yield return new WaitForSeconds(1f);
+        anim.SetActive(false);
     }
     public void Click()
     {

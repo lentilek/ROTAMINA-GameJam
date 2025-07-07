@@ -80,12 +80,14 @@ public class DialogueSystem : MonoBehaviour
                 if (points >= 2)
                 {
                     AudioManager.Instance.PlaySound("success");
+                    StartCoroutine(SwipingUI.Instance.SPecialAnimation(SwipingUI.Instance.finalmatch, "Finalmatch"));
                     SwipingUI.Instance.ChanceImage(true);
                     StartCoroutine(EndTalk(endDialoguesPos[Random.Range(0, endDialoguesPos.Length)]));
                 }
                 else
                 {
                     AudioManager.Instance.PlaySound("unmatched");
+                    StartCoroutine(SwipingUI.Instance.SPecialAnimation(SwipingUI.Instance.unmatched, "UnmatchedAnim"));
                     SwipingUI.Instance.ChanceImage(false);
                     SwipingUI.Instance.chosenProfiles.RemoveAt(SwipingUI.Instance.chosenProfiles.Count - 1);
                     StartCoroutine(EndTalk(endDialoguesNeg[Random.Range(0, endDialoguesNeg.Length)]));
