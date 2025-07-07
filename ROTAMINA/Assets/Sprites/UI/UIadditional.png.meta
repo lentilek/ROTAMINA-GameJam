@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66e22b590b103954797a31273c4aa5c3
+guid: ec264b5ab5634ec458f345b5e908c134
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_sprites2_0
+      name: UIadditional_0
       rect:
         serializedVersion: 2
         x: 21
@@ -112,14 +112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 573caa442b3c7104dbc8fc8a33f2e9b8
-      internalID: 1104663585
+      spriteID: 9e0b81eb5f9a9a040a872e70da102d53
+      internalID: 307287853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_sprites2_1
+      name: UIadditional_1
       rect:
         serializedVersion: 2
         x: 563
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6c74f793bfefe44dba78e0bc45f42a4
-      internalID: 359688901
+      spriteID: 3544a99dd8d80544e9dca382af2226c3
+      internalID: 972921990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_sprites2_2
+      name: UIadditional_2
       rect:
         serializedVersion: 2
         x: 661
@@ -156,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c6722155afeb354faeb8f21be695fc4
-      internalID: -135439545
+      spriteID: 7c6174870188cfe43969e877d7aa0079
+      internalID: -1073761263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_sprites2_5
+      name: UIadditional_5
       rect:
         serializedVersion: 2
         x: 566
@@ -178,14 +178,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2b80c379bdf71442adcb0e8937fc7eb
-      internalID: 1521304126
+      spriteID: 84e4aee8decce4245a785605975568d6
+      internalID: -489452499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_sprites2_6
+      name: UIadditional_6
       rect:
         serializedVersion: 2
         x: 565
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 174c72e300e7e434398f30d5d9d7e653
-      internalID: -262156513
+      spriteID: 7b1caf3a0e96c7a41b6b832c9762ce19
+      internalID: 1452209663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_sprites2_7
+      name: UIadditional_7
       rect:
         serializedVersion: 2
         x: 570
@@ -222,14 +222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed9552c9ff3af504bb5b66e3a268fdab
-      internalID: -2108126996
+      spriteID: 97cba144ac49fc54f94a2d52efaa2543
+      internalID: 386372722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_sprites2_8
+      name: UIadditional_8
       rect:
         serializedVersion: 2
         x: 685
@@ -244,14 +244,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c978d7a56b4ea64082754318a945e82
-      internalID: -1313478022
+      spriteID: b283fd41da6659c428c535281a4aa9b8
+      internalID: -1012611559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_sprites2_9
+      name: UIadditional_9
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 180
+        width: 555
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2282dc3045068ff41b4b273d2bf10a96
+      internalID: -1748760503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIadditional_10
       rect:
         serializedVersion: 2
         x: 558
@@ -266,14 +288,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9757863d9ab71cf4a987097fe0d6f371
-      internalID: 802957120
+      spriteID: 395f27c332885a14fbcb6e69661294ea
+      internalID: 23676889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UI_sprites2_3
+      name: UIadditional_3
       rect:
         serializedVersion: 2
         x: 785
@@ -288,8 +310,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 796156ba5a6358f4d907f9996710cb4f
-      internalID: 1737675353
+      spriteID: db377205b45c8dd47aaf09bbe0a78a49
+      internalID: 45521575
       vertices: []
       indices: 
       edges: []
@@ -298,7 +320,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: de8f97a4a2f24a6419f2422cf20c86fb
+    spriteID: 65109a01f752c7a469f8fb55a05277a6
     internalID: 0
     vertices: []
     indices: 
@@ -308,16 +330,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_sprites2_0: 1104663585
-      UI_sprites2_1: 359688901
-      UI_sprites2_2: -135439545
-      UI_sprites2_3: 1737675353
-      UI_sprites2_4: 1175734806
-      UI_sprites2_5: 1521304126
-      UI_sprites2_6: -262156513
-      UI_sprites2_7: -2108126996
-      UI_sprites2_8: -1313478022
-      UI_sprites2_9: 802957120
+      UIadditional_0: 307287853
+      UIadditional_1: 972921990
+      UIadditional_10: 23676889
+      UIadditional_2: -1073761263
+      UIadditional_3: 45521575
+      UIadditional_4: -27839452
+      UIadditional_5: -489452499
+      UIadditional_6: 1452209663
+      UIadditional_7: 386372722
+      UIadditional_8: -1012611559
+      UIadditional_9: -1748760503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
