@@ -457,8 +457,8 @@ MonoBehaviour:
   m_text: 'I love visiting new restaurants and trying different cuisines. However,
     I mostly do it alone. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
-  m_sharedMaterial: {fileID: 6800107104883742049, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7243b6d67a720054cabc938207c77791, type: 2}
+  m_sharedMaterial: {fileID: 2032460285861037610, guid: 7243b6d67a720054cabc938207c77791, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -482,8 +482,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -670,8 +670,8 @@ MonoBehaviour:
     I mostly do it alone. It would be great to go somewhere nice with a person who
     shares the same passion.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
-  m_sharedMaterial: {fileID: 6800107104883742049, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7243b6d67a720054cabc938207c77791, type: 2}
+  m_sharedMaterial: {fileID: 2032460285861037610, guid: 7243b6d67a720054cabc938207c77791, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -695,8 +695,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -882,8 +882,8 @@ MonoBehaviour:
   m_text: 'I love visiting new restaurants and trying different cuisines. However,
     I mostly do it alone. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
-  m_sharedMaterial: {fileID: 6800107104883742049, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7243b6d67a720054cabc938207c77791, type: 2}
+  m_sharedMaterial: {fileID: 2032460285861037610, guid: 7243b6d67a720054cabc938207c77791, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -907,8 +907,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1695,8 +1695,8 @@ MonoBehaviour:
     I mostly do it alone. It would be great to go somewhere nice with a person who
     shares the same passion.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
-  m_sharedMaterial: {fileID: 6800107104883742049, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7243b6d67a720054cabc938207c77791, type: 2}
+  m_sharedMaterial: {fileID: 2032460285861037610, guid: 7243b6d67a720054cabc938207c77791, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1720,8 +1720,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2559,8 +2559,8 @@ MonoBehaviour:
   m_text: 'I love visiting new restaurants and trying different cuisines. However,
     I mostly do it alone. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
-  m_sharedMaterial: {fileID: 6800107104883742049, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7243b6d67a720054cabc938207c77791, type: 2}
+  m_sharedMaterial: {fileID: 2032460285861037610, guid: 7243b6d67a720054cabc938207c77791, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2584,8 +2584,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3986,8 +3986,8 @@ MonoBehaviour:
   m_text: 'I love visiting new restaurants and trying different cuisines. However,
     I mostly do it alone. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
-  m_sharedMaterial: {fileID: 6800107104883742049, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7243b6d67a720054cabc938207c77791, type: 2}
+  m_sharedMaterial: {fileID: 2032460285861037610, guid: 7243b6d67a720054cabc938207c77791, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4011,8 +4011,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4409,8 +4409,8 @@ MonoBehaviour:
     I mostly do it alone. It would be great to go somewhere nice with a person who
     shares the same passion.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
-  m_sharedMaterial: {fileID: 6800107104883742049, guid: 6bacac6fff9869b429b443e05db5e04d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7243b6d67a720054cabc938207c77791, type: 2}
+  m_sharedMaterial: {fileID: 2032460285861037610, guid: 7243b6d67a720054cabc938207c77791, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4434,8 +4434,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
