@@ -231,6 +231,8 @@ public class SwipingUI : MonoBehaviour
     }
     public void ContinueGame()
     {
+        finalmatch.SetActive(false);
+        unmatched.SetActive(false);
         if (chancesUsed != 4)
         {
             phoneSwiping.SetActive(true);
