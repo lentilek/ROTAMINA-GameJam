@@ -48,6 +48,7 @@ public class SwipingUI : MonoBehaviour
     [HideInInspector] public List<NPCProfile> chosenProfiles = new List<NPCProfile>();
 
     [HideInInspector] public int chancesUsed;
+    [SerializeField] private GameObject finalPart;
     private void Awake()
     {
         Instance = this;
@@ -196,13 +197,22 @@ public class SwipingUI : MonoBehaviour
     }
     public void ContinueGame()
     {
-        phoneSwiping.SetActive(true);
-        phoneMessages.SetActive(false);
-        npcData.SetActive(false);
-        if (profilesRandom.Count > 0) FillProfile(profilesRandom[Random.Range(0, profilesRandom.Count)]);
+        if (chancesUsed != 4)
+        {
+            phoneSwiping.SetActive(true);
+            phoneMessages.SetActive(false);
+            npcData.SetActive(false);
+            if (profilesRandom.Count > 0) FillProfile(profilesRandom[Random.Range(0, profilesRandom.Count)]);
+            else
+            {
+                RandomizeProfiles();
+            }
+        }
         else
         {
-            RandomizeProfiles();
+            finalPart.SetActive(true);
+            FinalPart.Instance.chosenProfiles = chosenProfiles;
+            this.gameObject.SetActive(false);
         }
     }
 

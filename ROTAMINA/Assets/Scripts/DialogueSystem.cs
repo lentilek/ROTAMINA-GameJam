@@ -83,6 +83,7 @@ public class DialogueSystem : MonoBehaviour
                 else
                 {
                     SwipingUI.Instance.ChanceImage(false);
+                    SwipingUI.Instance.chosenProfiles.RemoveAt(SwipingUI.Instance.chosenProfiles.Count - 1);
                     StartCoroutine(EndTalk(endDialoguesNeg[Random.Range(0, endDialoguesNeg.Length)]));
                 }
                 stage++;
