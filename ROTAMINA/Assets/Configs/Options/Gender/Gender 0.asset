@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Gender 0
   m_EditorClassIdentifier: 
   index: 0
-  sprite: {fileID: 0}
+  sprite: {fileID: -976175904, guid: fbedb8cd767e1d945a7ab8909b4fbb8b, type: 3}
   text: Female

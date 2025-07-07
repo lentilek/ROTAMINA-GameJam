@@ -6,7 +6,7 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName = "CharacterProfile", menuName = "Scriptable Objects/CharacterProfile")]
 public class CharacterProfile : ScriptableObject
 {
-    public Sprite skin, face, hair, clothes, item;
+    public Sprite profilePic;
     public string characterName;
     public OptionSO age, zodiac, gender, personality;
     public List<Likes> likes = new List<Likes>(), dislikes = new List<Likes>();

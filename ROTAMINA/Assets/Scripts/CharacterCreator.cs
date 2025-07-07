@@ -12,6 +12,9 @@ public class CharacterCreator : MonoBehaviour
     public static CharacterCreator Instance;
 
     public CharacterProfile charProf;
+    [SerializeField] private Sprite[] profilePics;
+    [SerializeField] private Image profilePic;
+    private int currentPicIndex;
     [SerializeField] private TextMeshProUGUI charNameTXT;
     [SerializeField] private TMP_Dropdown ageDD, genderDD, zodiacDD, personDD;
     [SerializeField] private OptionSO[] ageOptions, genderOptions, zodiacOptions, personOptions;
@@ -28,6 +31,8 @@ public class CharacterCreator : MonoBehaviour
         Instance = this;
         likesCount = 0;
         dislikesCount = 0;
+        profilePic.sprite = profilePics[0];
+        currentPicIndex = 0;
         CharacterProfileReset();
         DropdownSetUp(ageOptions, ageDD);
         DropdownSetUp(genderOptions, genderDD);
@@ -43,6 +48,13 @@ public class CharacterCreator : MonoBehaviour
             item.image = option.sprite;
             dropdown.options.Add(item);
         }
+    }
+    public void NextProfilePic()
+    {
+        currentPicIndex++;
+        if (currentPicIndex >= profilePics.Length) currentPicIndex = 0;
+        profilePic.sprite = profilePics[currentPicIndex];
+        charProf.profilePic = profilePics[currentPicIndex];
     }
     public void CharName()
     {
@@ -91,6 +103,7 @@ public class CharacterCreator : MonoBehaviour
     }
     private void CharacterProfileReset()
     {
+        charProf.profilePic = profilePics[0];
         charProf.age = ageOptions[0];
         charProf.gender = genderOptions[0];
         charProf.zodiac = zodiacOptions[0];

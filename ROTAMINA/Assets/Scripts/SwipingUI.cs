@@ -14,6 +14,7 @@ public class SwipingUI : MonoBehaviour
 
     [Header("Player data")]
     public CharacterProfile charProf;
+    [SerializeField] private Image profilePic;
     [SerializeField] private TextMeshProUGUI charNameTXT;
     [SerializeField] private TextMeshProUGUI ageTXT, genTXT, zodTXT, persTXT, likesTXT;
     [SerializeField] private Image zodiacImage;
@@ -59,6 +60,7 @@ public class SwipingUI : MonoBehaviour
     }
     private void PlayerDataIN()
     {
+        profilePic.sprite = charProf.profilePic;
         charNameTXT.text = charProf.characterName;
         ageTXT.text = charProf.age.text;
         genTXT.text = charProf.gender.text;

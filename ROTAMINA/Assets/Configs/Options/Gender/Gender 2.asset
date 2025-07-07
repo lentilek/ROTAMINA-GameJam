@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Gender 2
   m_EditorClassIdentifier: 
   index: 2
-  sprite: {fileID: 0}
+  sprite: {fileID: -1073761263, guid: ec264b5ab5634ec458f345b5e908c134, type: 3}
   text: Nonbinary
