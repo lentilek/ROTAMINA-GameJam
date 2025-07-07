@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Candidate : MonoBehaviour
 {
-    [SerializeField] private NPCProfile profile;
+    private NPCProfile profile;
     [SerializeField] private Image pic;
     [SerializeField] private TextMeshProUGUI npcName;
     [SerializeField] private Button button;
@@ -22,5 +22,10 @@ public class Candidate : MonoBehaviour
         button.enabled = false;
         pic.sprite = emptySprite;
         npcName.text = "";
+    }
+    public void Choose()
+    {
+        AudioManager.Instance.ClickSound();
+        FinalPart.Instance.StartMArker(profile);
     }
 }

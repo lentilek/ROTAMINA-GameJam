@@ -50,7 +50,7 @@ public class SwipingUI : MonoBehaviour
     [HideInInspector] public int chancesUsed;
     [SerializeField] private GameObject finalPart;
 
-    public GameObject nope, matched, unmatched, finalmatch;
+    public GameObject nope, matched, unmatched, finalmatch, heart;
     private void Awake()
     {
         Instance = this;
@@ -62,6 +62,7 @@ public class SwipingUI : MonoBehaviour
         matched.SetActive(false);
         unmatched.SetActive(false);
         finalmatch.SetActive(false);
+        heart.SetActive(false);
         PlayerDataIN();
         RandomizeProfiles();
     }
@@ -195,9 +196,10 @@ public class SwipingUI : MonoBehaviour
         zodTXTNPC.text = currentProfile.zodiac.text;
         zodiacImageNPC.sprite = currentProfile.zodiac.sprite;
         persTXTNPC.text = currentProfile.personality.text;
-        string likesText = CreateLikesList(currentProfile.likes.ToArray());
-        string dislikesText = CreateLikesList(currentProfile.dislikes.ToArray());
-        likesTXTNPC.text = $"Likes: {likesText}\n\nDislikes: {dislikesText}";
+        //string likesText = CreateLikesList(currentProfile.likes.ToArray());
+        //string dislikesText = CreateLikesList(currentProfile.dislikes.ToArray());
+        //likesTXTNPC.text = $"Likes: {likesText}\n\nDislikes: {dislikesText}";
+        likesTXTNPC.text = currentProfile.introduction;
         npcDataAll.SetActive(true);
     }
     public void HideProfile()
@@ -213,9 +215,10 @@ public class SwipingUI : MonoBehaviour
         zodTXTNPC.text = chosenProfiles[index].zodiac.text;
         zodiacImageNPC.sprite = chosenProfiles[index].zodiac.sprite;
         persTXTNPC.text = chosenProfiles[index].personality.text;
-        string likesText = CreateLikesList(chosenProfiles[index].likes.ToArray());
-        string dislikesText = CreateLikesList(chosenProfiles[index].dislikes.ToArray());
-        likesTXTNPC.text = $"Likes: {likesText}\n\nDislikes: {dislikesText}";
+        //string likesText = CreateLikesList(chosenProfiles[index].likes.ToArray());
+        //string dislikesText = CreateLikesList(chosenProfiles[index].dislikes.ToArray());
+        //likesTXTNPC.text = $"Likes: {likesText}\n\nDislikes: {dislikesText}";
+        likesTXTNPC.text = chosenProfiles[index].introduction;
         DialogueSystem.Instance.npc = chosenProfiles[index];
         npcDataAll.SetActive(true);
         StartCoroutine(DialogueSystem.Instance.ConversationStart());
@@ -242,6 +245,8 @@ public class SwipingUI : MonoBehaviour
         {
             finalPart.SetActive(true);
             FinalPart.Instance.chosenProfiles = chosenProfiles;
+            StartCoroutine(SPecialAnimation(heart, "AnimClip"));
+            FinalPart.Instance.SetUpStart();
             this.gameObject.SetActive(false);
         }
     }
