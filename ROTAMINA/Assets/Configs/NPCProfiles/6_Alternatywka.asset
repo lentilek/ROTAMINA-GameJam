@@ -17,6 +17,8 @@ MonoBehaviour:
   profilePic: {fileID: -581351331, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Zuzia
   oneLiner: Kiss me hard before you go
+  introduction: I'll be honest with you. If you're into mainstream, don't talk to
+    me. Just don't do it.
   age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
   zodiac: {fileID: 11400000, guid: d85da0f88f438fe4e9bf269681fb17df, type: 2}
   gender: {fileID: 11400000, guid: d241427bca18970409dbc3cef5baee74, type: 2}
@@ -24,3 +26,4 @@ MonoBehaviour:
   likes: 070000000a0000000200000003000000
   dislikes: 0000000006000000
   startingDialogue: 'God, I''m sooooo bored,  TALK TO ME PLS!!!!!!!!!!!!!!! '
+  polaroid: {fileID: -1381826208, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}

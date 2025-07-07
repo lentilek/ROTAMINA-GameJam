@@ -17,6 +17,7 @@ MonoBehaviour:
   profilePic: {fileID: 1646100849, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Ruby-chan
   oneLiner: Nyan Nyan :3
+  introduction: 'Everything that Japan is famous for is my interest okay? '
   age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
   zodiac: {fileID: 11400000, guid: ffba6462641f67b40a28d6ec20bf1c84, type: 2}
   gender: {fileID: 11400000, guid: d241427bca18970409dbc3cef5baee74, type: 2}
@@ -24,3 +25,4 @@ MonoBehaviour:
   likes: 0700000001000000040000000c000000
   dislikes: 060000000d000000
   startingDialogue: HAAAAIIII!!!!!!!!!! ohayo senpai des  <3<3<3
+  polaroid: {fileID: -408243806, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}

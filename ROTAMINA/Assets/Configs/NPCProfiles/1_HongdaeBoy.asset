@@ -17,6 +17,8 @@ MonoBehaviour:
   profilePic: {fileID: 93409665, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Sean
   oneLiner: I'm looking for someone who's open mindeu
+  introduction: Spending time actively is my speciality, well, maybe not always,
+    but most of time.
   age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
   zodiac: {fileID: 11400000, guid: 927bc4fff7a4b5b4a869907c097df4e1, type: 2}
   gender: {fileID: 11400000, guid: 28876639e861eff489eafc0a851be313, type: 2}
@@ -25,3 +27,4 @@ MonoBehaviour:
   dislikes: 0900000004000000
   startingDialogue: Hi there!! I've seen we have a match! It means we should get
     to know each other! I hope you are open minded
+  polaroid: {fileID: -27926831, guid: 59d651b6117bd0e4c885f46baa7ce95c, type: 3}

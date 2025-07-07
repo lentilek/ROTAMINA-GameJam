@@ -17,6 +17,8 @@ MonoBehaviour:
   profilePic: {fileID: -849563736, guid: 296184676686a664e999b70e191cbc6c, type: 3}
   characterName: Inez
   oneLiner: I'm not like the other girls
+  introduction: Think about every single girl in this world. And let me tell you
+    one thing. I'm not like the other girls. I have some real interests, real hobbies.
   age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
   zodiac: {fileID: 11400000, guid: 927bc4fff7a4b5b4a869907c097df4e1, type: 2}
   gender: {fileID: 11400000, guid: d241427bca18970409dbc3cef5baee74, type: 2}
@@ -24,3 +26,4 @@ MonoBehaviour:
   likes: 0600000004000000020000000c000000
   dislikes: 08000000070000000a00000003000000
   startingDialogue: Hi Tell me something about yourself Whatever
+  polaroid: {fileID: 976788044, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}
