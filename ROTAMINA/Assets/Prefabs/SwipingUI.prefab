@@ -3288,7 +3288,20 @@ MonoBehaviour:
   - Hello, nice to meet you!
   - Hello there!
   interestDialogues:
+  - {fileID: 11400000, guid: 17770d25d2db97a43823b6b139344659, type: 2}
+  - {fileID: 11400000, guid: 72f52af380ed79141acc3d82c129f41f, type: 2}
+  - {fileID: 11400000, guid: c087131c3fd9ac44c8b57fcaddcf81e1, type: 2}
   - {fileID: 11400000, guid: d3a4d406f662aa54399f369c6f7786a0, type: 2}
+  - {fileID: 11400000, guid: b49f86e1b46ecec4691de8979d18b19b, type: 2}
+  - {fileID: 11400000, guid: 73e3c31a9c32e97429010abecc65fad1, type: 2}
+  - {fileID: 11400000, guid: 2c7acf55e90c0fc40a9bd91991c6ce7d, type: 2}
+  - {fileID: 11400000, guid: c5fe8704b47a68045bfbef94956fb8db, type: 2}
+  - {fileID: 11400000, guid: c844959bed7ef814ca2b1e79a896d4c9, type: 2}
+  - {fileID: 11400000, guid: 361b00f35feddeb418701aafc576870e, type: 2}
+  - {fileID: 11400000, guid: a66df00a2d2e64546bcce297d0b2667d, type: 2}
+  - {fileID: 11400000, guid: e844989ba8801b04d983329faff5f7d3, type: 2}
+  - {fileID: 11400000, guid: fb07eee4c58cca34eb68eee42e117c75, type: 2}
+  - {fileID: 11400000, guid: 58f058fbd7219f8479e53c36b8dd229a, type: 2}
   typeDialogues:
   - {fileID: 11400000, guid: 87ef773aeaf545d44a567d2c1aa19c41, type: 2}
   - {fileID: 11400000, guid: 00e1e4de6fb20104f9dcd2eec4df3c50, type: 2}
@@ -4872,6 +4885,7 @@ MonoBehaviour:
   profilePicNPC: {fileID: 6435103128363597261}
   chosenProfiles: []
   chancesUsed: 0
+  finalPart: {fileID: 0}
 --- !u!1001 &4257587475865201928
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
-  m_Name: DialogueFashion
+  m_Name: DialogueArt
   m_EditorClassIdentifier: 
   conversationStart:
-  - Lately I've been refreshing my wardrobe. Are you interested in fashion?
+  - You seem creative. Do you make art in any form?
   choicesTXT:
-  - I've been trying new things lately and looking for what suits me
-  - I prefer to just be comfortable.
-  - I've never gotten into it, but maybe someday
-  - Why would it matter to me? I just throw something on and it always works
-  interstType: 7
+  - Yeah. I'm still learning, but I really enjoy it
+  - I don't really have any time for it
+  - I tried but it didn't stick with me
+  - No. It's not worth my time
+  interstType: 10
   optionRelatedIndex: 
   conversationEndOptionsPos:
-  - I like your thinking!
+  - Then let's do something together sometime!
   conversationEndOptionsNeutral:
-  - Yeah. Makes sense
+  - Oof
   conversationEndOptionsNegative:
-  - Um. Okay...
+  - ...really? That's a statement

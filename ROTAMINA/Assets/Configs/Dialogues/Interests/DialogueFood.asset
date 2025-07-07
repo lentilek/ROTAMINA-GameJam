@@ -10,20 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
-  m_Name: DialogueFashion
+  m_Name: DialogueFood
   m_EditorClassIdentifier: 
   conversationStart:
-  - Lately I've been refreshing my wardrobe. Are you interested in fashion?
+  - I've been visitiing some restaurants lately. Mostly alone. How do you feel about
+    going together?
   choicesTXT:
-  - I've been trying new things lately and looking for what suits me
-  - I prefer to just be comfortable.
-  - I've never gotten into it, but maybe someday
-  - Why would it matter to me? I just throw something on and it always works
-  interstType: 7
+  - ' I always have to go by myself and I hate it. Maybe we could go somewhere together
+    one day then~'
+  - ' It depends on my mood, to be honest'
+  - I only sometimes go out, but I don't mind doing so alone
+  - I don't really like eating out. It's too expensive
+  interstType: 1
   optionRelatedIndex: 
   conversationEndOptionsPos:
-  - I like your thinking!
+  - Sounds relatable
   conversationEndOptionsNeutral:
-  - Yeah. Makes sense
+  - Good for you then
   conversationEndOptionsNegative:
-  - Um. Okay...
+  - aha...

@@ -10,20 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
-  m_Name: DialogueFashion
+  m_Name: DialogueMusic
   m_EditorClassIdentifier: 
   conversationStart:
-  - Lately I've been refreshing my wardrobe. Are you interested in fashion?
+  - So, you must like music right? What's your favorite music genre?
   choicesTXT:
-  - I've been trying new things lately and looking for what suits me
-  - I prefer to just be comfortable.
-  - I've never gotten into it, but maybe someday
-  - Why would it matter to me? I just throw something on and it always works
-  interstType: 7
+  - My favorites are RnB and funk but I also like to listen to some classic rock
+    or hip hop!
+  - Yeah, I basically like every music genere. Nothing specific. think there is something
+    I can recommend to you. I don't play as much as you
+  - Well, I am only listening to the radio...
+  - What is music genere??
+  interstType: 2
   optionRelatedIndex: 
   conversationEndOptionsPos:
-  - I like your thinking!
+  - Ha, yeah
   conversationEndOptionsNeutral:
-  - Yeah. Makes sense
+  - Oh, okay
   conversationEndOptionsNegative:
-  - Um. Okay...
+  - ...are you serious?

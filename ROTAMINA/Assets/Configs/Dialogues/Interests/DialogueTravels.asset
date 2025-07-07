@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
-  m_Name: DialogueFashion
+  m_Name: DialogueTravels
   m_EditorClassIdentifier: 
   conversationStart:
-  - Lately I've been refreshing my wardrobe. Are you interested in fashion?
+  - Do you travel very often?
   choicesTXT:
-  - I've been trying new things lately and looking for what suits me
-  - I prefer to just be comfortable.
-  - I've never gotten into it, but maybe someday
-  - Why would it matter to me? I just throw something on and it always works
-  interstType: 7
+  - Yes, I really like it. I do it whenever I get the chance.
+  - Yeah, it's pretty cool. But I haven't had any big chances to try it out yet
+  - "I only used to go to W\u0142adys\u0142awowo with my parents..."
+  - Not at all. What a waste of money and time.
+  interstType: 0
   optionRelatedIndex: 
   conversationEndOptionsPos:
-  - I like your thinking!
+  - Oh I get it
   conversationEndOptionsNeutral:
-  - Yeah. Makes sense
+  - There's still time
   conversationEndOptionsNegative:
-  - Um. Okay...
+  - Well I wouldn't say so...

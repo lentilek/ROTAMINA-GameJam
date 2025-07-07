@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
-  m_Name: DialogueFashion
+  m_Name: DialogueSport
   m_EditorClassIdentifier: 
   conversationStart:
-  - Lately I've been refreshing my wardrobe. Are you interested in fashion?
+  - Are you going to the gym? Or doing any sports?
   choicesTXT:
-  - I've been trying new things lately and looking for what suits me
-  - I prefer to just be comfortable.
-  - I've never gotten into it, but maybe someday
-  - Why would it matter to me? I just throw something on and it always works
-  interstType: 7
+  - I'm an active member actually. I've been going for a few years
+  - I go jogging regularly. It helps me clear my mind
+  - I'm not that active, but I do like watching sports
+  - I prefer staying in bed, to be honest
+  interstType: 6
   optionRelatedIndex: 
   conversationEndOptionsPos:
-  - I like your thinking!
+  - Me too! We could support each other
   conversationEndOptionsNeutral:
-  - Yeah. Makes sense
+  - It's better than nothing
   conversationEndOptionsNegative:
-  - Um. Okay...
+  - Oh no, really?

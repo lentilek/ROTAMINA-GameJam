@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
-  m_Name: DialogueFashion
+  m_Name: DialogueFishing
   m_EditorClassIdentifier: 
   conversationStart:
-  - Lately I've been refreshing my wardrobe. Are you interested in fashion?
+  - Totally random question. What is your favorite fishing spot?
   choicesTXT:
-  - I've been trying new things lately and looking for what suits me
-  - I prefer to just be comfortable.
-  - I've never gotten into it, but maybe someday
-  - Why would it matter to me? I just throw something on and it always works
-  interstType: 7
+  - I know a few secret spots that I reserve only for my good pals
+  - 'I''ve only gone fishing a few times, but it was fun. '
+  - I don't really know much about it, but you can teach me!
+  - "I\u2019ve never been, and I don\u2019t see the appeal."
+  interstType: 5
   optionRelatedIndex: 
   conversationEndOptionsPos:
-  - I like your thinking!
+  - Sounda like we have a plan.
   conversationEndOptionsNeutral:
-  - Yeah. Makes sense
+  - I can always show you the true potential of fishing
   conversationEndOptionsNegative:
-  - Um. Okay...
+  - Okay that was insulting
