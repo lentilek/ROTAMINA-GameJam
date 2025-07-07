@@ -3,6 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    private void Awake()
+    {
+        Time.timeScale = 1.0f;
+    }
     public void StartGame()
     {
         AudioManager.Instance.ClickSound();

@@ -18,21 +18,21 @@ MonoBehaviour:
   - It seems like you are not avoiding challenges in your life.
   - Am I talking with an old soul?
   choicesTXT:
-  - Do you enjoy spending time alone, or does it depend on your mood?
-  - Do you like spending time in nature?
-  - What makes you happy the most?
   - "Is there a passion you\u2019ve had for a long time that still drives you today?"
+  - Do you enjoy spending time alone, or does it depend on your mood?
+  - What makes you happy the most?
+  - Do you like spending time in nature?
   interstType: 0
-  optionRelatedIndex: 01000000020000000300000000000000
+  optionRelatedIndex: 01000000030000000200000000000000
   conversationEndOptionsPos:
-  - "There\u2019s a certain calm that comes with solitude, but it really depends.
-    Sometimes strong connection is just as grounding as quiet."
-  - I like places where I can relax and find some peace and quiet. Not the biggest
-    fan of all those crowded places with tons of people.
-  - "It\u2019s often the small, spontaneous things- moments that feel real, shared
-    laughter, or when something unexpectedly brightens the day."
   - There are definitely interests that have stayed with me over the years but it's
     a topic for a different conversation
+  - "There\u2019s a certain calm that comes with solitude, but it really depends.
+    Sometimes strong connection is just as grounding as quiet."
+  - "It\u2019s often the small, spontaneous things- moments that feel real, shared
+    laughter, or when something unexpectedly brightens the day."
+  - I like places where I can relax and find some peace and quiet. Not the biggest
+    fan of all those crowded places with tons of people.
   conversationEndOptionsNeutral:
   - I'm not really into that.
   - That's a difficult question...

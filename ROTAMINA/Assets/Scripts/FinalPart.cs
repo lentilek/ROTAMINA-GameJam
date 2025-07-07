@@ -28,6 +28,7 @@ public class FinalPart : MonoBehaviour
     [SerializeField] private float friendMinAdd, friendMaxAdd, romanceMinAdd, romanceMaxAdd;
     [SerializeField] private GameObject friend, love, hate;
     [SerializeField] private Image polaroid;
+    [SerializeField] private Sprite polaroidSolo;
     [SerializeField] private GameObject heart;
     private void Awake()
     {
@@ -45,11 +46,21 @@ public class FinalPart : MonoBehaviour
         chooseScreen.SetActive(true);
         gameScreen.SetActive(false);
         lastScreen.SetActive(false);
-        foreach (var candidate in candidates)
+        if (chosenProfiles.Count == 0)
         {
-            if (i < chosenProfiles.Count) candidate.SetUpButton(chosenProfiles[i]);
-            else candidate.SetEmpty();
-            i++;
+            chooseScreen.SetActive(false);
+            lastScreen.SetActive(true);
+            polaroid.sprite = polaroidSolo;
+            hate.SetActive(true);
+        }
+        else
+        {
+            foreach (var candidate in candidates)
+            {
+                if (i < chosenProfiles.Count) candidate.SetUpButton(chosenProfiles[i]);
+                else candidate.SetEmpty();
+                i++;
+            }
         }
     }
     public void StartMArker(NPCProfile npc)
@@ -71,9 +82,13 @@ public class FinalPart : MonoBehaviour
     }
     public void StopMarker()
     {
+        Time.timeScale = 0;
         AudioManager.Instance.ClickSound();
-        StopCoroutine(StartAnimationMarker());
+        StopAllCoroutines();
         // check position
+        love.SetActive(false);
+        hate.SetActive(false);
+        friend.SetActive(false);
         friendMinAdd = startX + friendMin;
         friendMaxAdd = startX + friendMax;
         romanceMinAdd = startX + romanceMin;

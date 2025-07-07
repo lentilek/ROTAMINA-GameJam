@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 068cdc55c034507489dec40d588b42db, type: 3}
   m_Name: 16_Vinted
   m_EditorClassIdentifier: 
-  npcIndex: 15
-  art: {fileID: -1315729411, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
-  profilePic: {fileID: -423324715, guid: 296184676686a664e999b70e191cbc6c, type: 3}
+  npcIndex: 16
+  art: {fileID: 1136555460, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
+  profilePic: {fileID: -1196601433, guid: 296184676686a664e999b70e191cbc6c, type: 3}
   characterName: Alice
   oneLiner: Do not approach if your name is Richard
   introduction: Yes, as you may guess I have unique style. It's a form of art, okay?

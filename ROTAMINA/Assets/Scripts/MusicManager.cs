@@ -6,7 +6,13 @@ public class MusicManager : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
+        if (Instance == null)
+        {
+            DontDestroyOnLoad(transform.gameObject);
+            Instance = this;
+            return;
+        }
+
+        Destroy(gameObject);
     }
 }

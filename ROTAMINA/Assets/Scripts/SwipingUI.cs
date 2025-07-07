@@ -138,8 +138,6 @@ public class SwipingUI : MonoBehaviour
         RectTransform rt = npcProfile.GetComponent<RectTransform>();
         rt.DOAnchorPos(swipePositionRight, animTime);
         yield return new WaitForSeconds(animTime);
-        rt.anchoredPosition = new Vector3(0, 0, 0);
-
         int index = profiles.Count - 1;
         chosenProfiles.Add(profiles[index]);
         profiles.RemoveAt(index);
@@ -147,6 +145,7 @@ public class SwipingUI : MonoBehaviour
         // matching
         if (CheckIfMatched(chosenProfiles[chosenProfiles.Count - 1]))
         {
+            rt.anchoredPosition = new Vector3(0, 0, 0);
             AudioManager.Instance.PlaySound("matched");
             StartCoroutine(SPecialAnimation(matched, "Match"));
             phoneMessages.SetActive(true);
@@ -160,6 +159,8 @@ public class SwipingUI : MonoBehaviour
             AudioManager.Instance.PlaySound("nope");
             StartCoroutine(SPecialAnimation(nope, "nope"));
             ChanceImage(false);
+            yield return new WaitForSeconds(1f);
+            rt.anchoredPosition = new Vector3(0, 0, 0);
             ContinueGame();
         }
     }

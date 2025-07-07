@@ -10,8 +10,16 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip[] uiClick;
     private void Awake()
     {
-        Instance = this;
-        DontDestroyOnLoad(gameObject);
+        if (Instance == null)
+        {
+            DontDestroyOnLoad(transform.gameObject);
+            Instance = this;
+            return;
+        }
+        Destroy(gameObject);
+    }
+    private void Start()
+    {
         audioSource = GetComponent<AudioSource>();
     }
     public void PlaySound(string clip)

@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 068cdc55c034507489dec40d588b42db, type: 3}
   m_Name: 20_RandomDude
   m_EditorClassIdentifier: 
-  npcIndex: 19
-  art: {fileID: -1645466747, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
+  npcIndex: 20
+  art: {fileID: -1779827448, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
   profilePic: {fileID: 1156043464, guid: 15042fe9fa406164ab1dbdbbf2f47862, type: 3}
-  characterName: David
-  oneLiner: Nice guys finish last
+  characterName: Martin
+  oneLiner: hi
   introduction: Hi. My name is Martin. I'm just a random guy.
-  age: {fileID: 11400000, guid: c61c32c5c86c18d4fa17b2364c7858df, type: 2}
-  zodiac: {fileID: 11400000, guid: cdb11a5d8955229498d5b6a4c32b7bdf, type: 2}
+  age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
+  zodiac: {fileID: 11400000, guid: 1fed3eb29faad2040bb8fded02cd21f7, type: 2}
   gender: {fileID: 11400000, guid: 28876639e861eff489eafc0a851be313, type: 2}
   personality: {fileID: 11400000, guid: 89f4fdae2a486164cbd8307bf513c1e7, type: 2}
-  likes: 030000000400000009000000
-  dislikes: 0d0000000600000008000000
+  likes: 040000000100000002000000
+  dislikes: 070000000b0000000d000000
   startingDialogue: hi
   polaroid: {fileID: 1964365705, guid: 59d651b6117bd0e4c885f46baa7ce95c, type: 3}

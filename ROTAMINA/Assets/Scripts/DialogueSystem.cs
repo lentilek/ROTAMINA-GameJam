@@ -143,6 +143,7 @@ public class DialogueSystem : MonoBehaviour
         AudioManager.Instance.PlaySound("receive");
         yield return new WaitForSeconds(.5f);
         int i = 0;
+        AudioManager.Instance.PlaySound("send");
         foreach (GameObject go in dialogueOptions)
         {
             dialogueOptionsTXT[i].text = dialogue.choicesTXT[i];

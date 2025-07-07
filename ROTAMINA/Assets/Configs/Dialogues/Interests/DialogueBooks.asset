@@ -22,7 +22,7 @@ MonoBehaviour:
   interstType: 12
   optionRelatedIndex: 
   conversationEndOptionsPos:
-  - You're the best
+  - I can see us getting along
   conversationEndOptionsNeutral:
   - It was still worth a shot
   conversationEndOptionsNegative:
