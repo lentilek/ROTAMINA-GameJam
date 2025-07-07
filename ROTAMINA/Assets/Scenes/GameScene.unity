@@ -594,15 +594,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7004652466215823176, guid: 87cd5905759347049b5a1a4e3e1d3ebe, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7004652466215823176, guid: 87cd5905759347049b5a1a4e3e1d3ebe, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7004652466215823176, guid: 87cd5905759347049b5a1a4e3e1d3ebe, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7004652466215823176, guid: 87cd5905759347049b5a1a4e3e1d3ebe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -952,6 +952,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4064663251379292893, guid: 41c80b6f33add15438140dc0d4ff9e18, type: 3}
+      propertyPath: heart
+      value: 
+      objectReference: {fileID: 1333730688}
     - target: {fileID: 6491944545450629691, guid: 41c80b6f33add15438140dc0d4ff9e18, type: 3}
       propertyPath: m_Name
       value: FinalPart

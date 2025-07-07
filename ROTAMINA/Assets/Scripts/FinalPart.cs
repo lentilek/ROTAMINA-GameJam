@@ -2,6 +2,7 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
@@ -27,6 +28,7 @@ public class FinalPart : MonoBehaviour
     [SerializeField] private float friendMinAdd, friendMaxAdd, romanceMinAdd, romanceMaxAdd;
     [SerializeField] private GameObject friend, love, hate;
     [SerializeField] private Image polaroid;
+    [SerializeField] private GameObject heart;
     private void Awake()
     {
         doAnim = false;
@@ -34,17 +36,20 @@ public class FinalPart : MonoBehaviour
         chooseScreen.SetActive(false);
         gameScreen.SetActive(false);
         lastScreen.SetActive(false);
+        heart.SetActive(false);
     }
     public void SetUpStart()
     {
+        StartCoroutine(SPecialAnimation(heart, "AnimClip"));
         int i = 0;
         chooseScreen.SetActive(true);
         gameScreen.SetActive(false);
         lastScreen.SetActive(false);
         foreach (var candidate in candidates)
         {
-            if (chosenProfiles[i] != null) candidate.SetUpButton(chosenProfiles[i]);
+            if (i < chosenProfiles.Count) candidate.SetUpButton(chosenProfiles[i]);
             else candidate.SetEmpty();
+            i++;
         }
     }
     public void StartMArker(NPCProfile npc)
@@ -58,9 +63,9 @@ public class FinalPart : MonoBehaviour
     }
     IEnumerator StartAnimationMarker()
     {
-        marker.GetComponent<RectTransform>().DOAnchorPosX(endX, animTime).SetLoops(-1);
+        marker.GetComponent<RectTransform>().DOAnchorPosX(endX, animTime);
         yield return new WaitForSeconds(animTime);
-        marker.GetComponent<RectTransform>().DOAnchorPosX(startX, animTime).SetLoops(-1);
+        marker.GetComponent<RectTransform>().DOAnchorPosX(startX, animTime);
         yield return new WaitForSeconds(animTime);
         StartCoroutine(StartAnimationMarker());
     }
@@ -88,6 +93,13 @@ public class FinalPart : MonoBehaviour
         polaroid.sprite = choosen.polaroid;
         lastScreen.SetActive(true);
         gameScreen.SetActive(false);
+    }
+    public IEnumerator SPecialAnimation(GameObject anim, string animationName)
+    {
+        anim.SetActive(true);
+        anim.GetComponent<Animator>().Play(animationName);
+        yield return new WaitForSeconds(1f);
+        anim.SetActive(false);
     }
     public void Click()
     {

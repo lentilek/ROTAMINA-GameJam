@@ -50,7 +50,7 @@ public class SwipingUI : MonoBehaviour
     [HideInInspector] public int chancesUsed;
     [SerializeField] private GameObject finalPart;
 
-    public GameObject nope, matched, unmatched, finalmatch, heart;
+    public GameObject nope, matched, unmatched, finalmatch;
     private void Awake()
     {
         Instance = this;
@@ -62,7 +62,6 @@ public class SwipingUI : MonoBehaviour
         matched.SetActive(false);
         unmatched.SetActive(false);
         finalmatch.SetActive(false);
-        heart.SetActive(false);
         PlayerDataIN();
         RandomizeProfiles();
     }
@@ -157,6 +156,7 @@ public class SwipingUI : MonoBehaviour
         }
         else
         {
+            chosenProfiles.Remove(chosenProfiles[chosenProfiles.Count - 1]);
             AudioManager.Instance.PlaySound("nope");
             StartCoroutine(SPecialAnimation(nope, "nope"));
             ChanceImage(false);
@@ -245,7 +245,6 @@ public class SwipingUI : MonoBehaviour
         {
             finalPart.SetActive(true);
             FinalPart.Instance.chosenProfiles = chosenProfiles;
-            StartCoroutine(SPecialAnimation(heart, "AnimClip"));
             FinalPart.Instance.SetUpStart();
             this.gameObject.SetActive(false);
         }

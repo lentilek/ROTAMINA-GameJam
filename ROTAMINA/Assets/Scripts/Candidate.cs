@@ -13,8 +13,8 @@ public class Candidate : MonoBehaviour
     public void SetUpButton(NPCProfile npc)
     {
         profile = npc;
-        pic.sprite = profile.art;
-        npcName.text = npc.name;
+        pic.sprite = profile.profilePic;
+        npcName.text = npc.characterName;
         button.enabled = true;
     }
     public void SetEmpty()
