@@ -134,6 +134,10 @@ public class CharacterCreator : MonoBehaviour
         this.gameObject.SetActive(false);
         swipeUI.SetActive(true);
     }
+    public void Click()
+    {
+        AudioManager.Instance.ClickSound();
+    }
 }
 
 //    Travels, Food, Music, Movies, TVSeries, Fishing, Sport, Parties, Fashion, VideoGames, Art, Animals, Books, Nature

@@ -141,6 +141,7 @@ public class SwipingUI : MonoBehaviour
         // matching
         if (CheckIfMatched(chosenProfiles[chosenProfiles.Count - 1]))
         {
+            AudioManager.Instance.PlaySound("matched");
             phoneMessages.SetActive(true);
             phoneSwiping.SetActive(false);
             npcData.SetActive(true);
@@ -148,6 +149,7 @@ public class SwipingUI : MonoBehaviour
         }
         else
         {
+            AudioManager.Instance.PlaySound("nope");
             ChanceImage(false);
             ContinueGame();
         }
@@ -235,7 +237,10 @@ public class SwipingUI : MonoBehaviour
             this.gameObject.SetActive(false);
         }
     }
-
+    public void Click()
+    {
+        AudioManager.Instance.ClickSound();
+    }
     public void MainMenu()
     {
         SceneManager.LoadScene(0);

@@ -37,7 +37,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 103, y: -330}
-  m_SizeDelta: {x: 206, y: 133.41}
+  m_SizeDelta: {x: 206, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2196359350126175328
 MonoBehaviour:
@@ -213,6 +213,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3276713074806708291}
         m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3276713074806708291}
+        m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
         m_MethodName: LeftButton
         m_Mode: 1
         m_Arguments:
@@ -260,7 +272,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 103, y: -490}
-  m_SizeDelta: {x: 206, y: 133.41}
+  m_SizeDelta: {x: 206, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5727198001537793354
 MonoBehaviour:
@@ -421,10 +433,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5654506592792327237}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 103, y: -66.705}
-  m_SizeDelta: {x: 186, y: 113.41}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4349215753154130797
 CanvasRenderer:
@@ -633,10 +645,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1742604985083751202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 103, y: -112.06}
-  m_SizeDelta: {x: 186, y: 204.12}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9170924104619796387
 CanvasRenderer:
@@ -846,10 +858,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 9188352985663642274}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 103, y: -66.705}
-  m_SizeDelta: {x: 186, y: 113.41}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2533466951693813200
 CanvasRenderer:
@@ -1061,10 +1073,10 @@ RectTransform:
   - {fileID: 3391142087091922075}
   m_Father: {fileID: 1477230699044714716}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 206, y: 133.41}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &146865519785855093
 CanvasRenderer:
@@ -1182,6 +1194,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3276713074806708291}
+        m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1337,7 +1361,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 103, y: -170}
-  m_SizeDelta: {x: 206, y: 133.41}
+  m_SizeDelta: {x: 206, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7970352821958670620
 MonoBehaviour:
@@ -1426,10 +1450,10 @@ RectTransform:
   - {fileID: 2500999498292100766}
   m_Father: {fileID: 758675712256433940}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 206, y: 133.41}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3349073798513643857
 CanvasRenderer:
@@ -1551,6 +1575,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3276713074806708291}
+        m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2877740736896338570
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,10 +1694,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1984010050174578896}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 103, y: -112.06}
-  m_SizeDelta: {x: 186, y: 204.12}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4545930538091195858
 CanvasRenderer:
@@ -1873,10 +1909,10 @@ RectTransform:
   - {fileID: 1161273021852962295}
   m_Father: {fileID: 4638081368162922935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 206, y: 224.12}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2091911234089653885
 CanvasRenderer:
@@ -2064,6 +2100,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3276713074806708291}
         m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3276713074806708291}
+        m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
         m_MethodName: MainMenu
         m_Mode: 1
         m_Arguments:
@@ -2196,6 +2244,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3276713074806708291}
         m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3276713074806708291}
+        m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
         m_MethodName: RightButton
         m_Mode: 1
         m_Arguments:
@@ -2243,7 +2303,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -109, y: -255}
-  m_SizeDelta: {x: -328, y: -705.88}
+  m_SizeDelta: {x: -328, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &652610284294529679
 MonoBehaviour:
@@ -2334,7 +2394,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 103, y: -10}
-  m_SizeDelta: {x: 206, y: 133.41}
+  m_SizeDelta: {x: 206, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3763200823136827625
 MonoBehaviour:
@@ -2422,10 +2482,10 @@ RectTransform:
   - {fileID: 6996702118825478939}
   m_Father: {fileID: 4182908894839596972}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 206, y: 224.12}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1006880999838899014
 CanvasRenderer:
@@ -2523,10 +2583,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5589301678273496377}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 103, y: -66.705}
-  m_SizeDelta: {x: 186, y: 113.41}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8615527657924808907
 CanvasRenderer:
@@ -2740,10 +2800,10 @@ RectTransform:
   - {fileID: 2923460404283303684}
   m_Father: {fileID: 2148385464374136761}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 206, y: 133.41}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &2743306525837571535
 CanvasRenderer:
@@ -2861,6 +2921,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3276713074806708291}
+        m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3242,7 +3314,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2129084324206635315
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3460,6 +3532,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 3276713074806708291}
+        m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 2687100534675004756}
         m_TargetAssemblyTypeName: DialogueSystem, Assembly-CSharp
         m_MethodName: Continue
@@ -3507,10 +3591,10 @@ RectTransform:
   - {fileID: 4394575528629407096}
   m_Father: {fileID: 1404448062680229354}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 206, y: 133.41}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &3633259432104299589
 CanvasRenderer:
@@ -3624,6 +3708,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: DialogueSystem, Assembly-CSharp
         m_MethodName: DialogueOption
         m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3276713074806708291}
+        m_TargetAssemblyTypeName: SwipingUI, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3950,10 +4046,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1066187095750162094}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 103, y: -66.705}
-  m_SizeDelta: {x: 186, y: 113.41}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4561354728640858622
 CanvasRenderer:
@@ -4089,10 +4185,10 @@ RectTransform:
   - {fileID: 4336896158231161238}
   m_Father: {fileID: 7123683527754126272}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 206, y: 224.12}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &7644684371470456238
 CanvasRenderer:
@@ -4195,7 +4291,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -109, y: 253}
-  m_SizeDelta: {x: -328, y: -705.88}
+  m_SizeDelta: {x: -328, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6393383782378488076
 MonoBehaviour:
@@ -4286,7 +4382,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 135, y: 110}
-  m_SizeDelta: {x: -328, y: -705.88}
+  m_SizeDelta: {x: -328, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3866661895162085473
 MonoBehaviour:
@@ -4372,10 +4468,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5546077899953373760}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 103, y: -112.06}
-  m_SizeDelta: {x: 186, y: 204.12}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6564199263699821589
 CanvasRenderer:

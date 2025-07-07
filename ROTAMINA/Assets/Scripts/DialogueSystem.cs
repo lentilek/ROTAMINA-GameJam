@@ -45,10 +45,12 @@ public class DialogueSystem : MonoBehaviour
         dialogueStartTXT.text = npc.startingDialogue;
         dialogueStart2.GetComponent<CanvasGroup>().alpha = 0f;
         dialogueStart.GetComponent<CanvasGroup>().DOFade(1, .5f);
+        AudioManager.Instance.PlaySound("receive");
         yield return new WaitForSeconds(.5f);
         
         dialogueStart2TXT.text = startDialogues[Random.Range(0, startDialogues.Length)];
         dialogueStart2.GetComponent<CanvasGroup>().DOFade(1, .5f);
+        AudioManager.Instance.PlaySound("send");
         yield return new WaitForSeconds(.5f);
         continueDialogueButton.SetActive(true);
     }
@@ -75,13 +77,15 @@ public class DialogueSystem : MonoBehaviour
                 {
                     go.GetComponent<CanvasGroup>().alpha = 0f;
                 }
-                if (points >= 3)
+                if (points >= 2)
                 {
+                    AudioManager.Instance.PlaySound("success");
                     SwipingUI.Instance.ChanceImage(true);
                     StartCoroutine(EndTalk(endDialoguesPos[Random.Range(0, endDialoguesPos.Length)]));
                 }
                 else
                 {
+                    AudioManager.Instance.PlaySound("unmatched");
                     SwipingUI.Instance.ChanceImage(false);
                     SwipingUI.Instance.chosenProfiles.RemoveAt(SwipingUI.Instance.chosenProfiles.Count - 1);
                     StartCoroutine(EndTalk(endDialoguesNeg[Random.Range(0, endDialoguesNeg.Length)]));
@@ -103,6 +107,7 @@ public class DialogueSystem : MonoBehaviour
         dialogueStartTXT.text = text;
         dialogueStart2.GetComponent<CanvasGroup>().alpha = 0f;
         dialogueStart.GetComponent<CanvasGroup>().DOFade(1, .5f);
+        AudioManager.Instance.PlaySound("receive");
         yield return new WaitForSeconds(.5f);
         continueDialogueButton.SetActive(true);
     }
@@ -133,6 +138,7 @@ public class DialogueSystem : MonoBehaviour
             dialogueStartTXT.text = dialogue.conversationStart[npc.personality.index];
         }
         dialogueStart.GetComponent<CanvasGroup>().DOFade(1, .5f);
+        AudioManager.Instance.PlaySound("receive");
         yield return new WaitForSeconds(.5f);
         int i = 0;
         foreach (GameObject go in dialogueOptions)
@@ -147,6 +153,7 @@ public class DialogueSystem : MonoBehaviour
         for(int i = 0; i < currentDialogue.choicesTXT.Length; i++)
         {
             if (i != index) dialogueOptions[i].GetComponent<CanvasGroup>().DOFade(0, .3f);
+            AudioManager.Instance.PlaySound("receive");
         }
         /// count points
         int prevPoints = points;
@@ -187,7 +194,14 @@ public class DialogueSystem : MonoBehaviour
             else dialogueEndTXT.text = currentDialogue.conversationEndOptionsPos[index];
         }
         else dialogueEndTXT.text = currentDialogue.conversationEndOptionsNegative[Random.Range(0, currentDialogue.conversationEndOptionsNegative.Length)];
+        StartCoroutine(WaitForMessageEnd());
+    }
+    IEnumerator WaitForMessageEnd()
+    {
+        yield return new WaitForSeconds(.5f);
         dialogueEnd.GetComponent<CanvasGroup>().DOFade(1, .5f);
+        AudioManager.Instance.PlaySound("receive");
+        yield return new WaitForSeconds(.5f);
         continueDialogueButton.SetActive(true);
     }
 }
