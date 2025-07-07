@@ -17,6 +17,8 @@ MonoBehaviour:
   profilePic: {fileID: -423324715, guid: 296184676686a664e999b70e191cbc6c, type: 3}
   characterName: Jessica
   oneLiner: I'm not going on fish&chips date, love
+  introduction: I was in Bahamas, Madeira, Hawaii and all those places that you can
+    dream about, love. Education?! Who needs an education??
   age: {fileID: 11400000, guid: c61c32c5c86c18d4fa17b2364c7858df, type: 2}
   zodiac: {fileID: 11400000, guid: ffba6462641f67b40a28d6ec20bf1c84, type: 2}
   gender: {fileID: 11400000, guid: d241427bca18970409dbc3cef5baee74, type: 2}
@@ -25,3 +27,4 @@ MonoBehaviour:
   dislikes: 0c00000006000000
   startingDialogue: Gosh I have so many notifactions on this app I almost missed
     yours lol
+  polaroid: {fileID: 1557773952, guid: 59d651b6117bd0e4c885f46baa7ce95c, type: 3}

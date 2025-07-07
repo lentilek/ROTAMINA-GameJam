@@ -17,6 +17,8 @@ MonoBehaviour:
   profilePic: {fileID: -1921240149, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Chris
   oneLiner: Sigma Rizz Gyatt
+  introduction: Just a chill guy, nothing more, nothing less. Not your local gym
+    bro though.
   age: {fileID: 11400000, guid: c61c32c5c86c18d4fa17b2364c7858df, type: 2}
   zodiac: {fileID: 11400000, guid: 4a8d12c5fe03230479a11c74c7c1b5fd, type: 2}
   gender: {fileID: 11400000, guid: 28876639e861eff489eafc0a851be313, type: 2}
@@ -24,3 +26,4 @@ MonoBehaviour:
   likes: 010000000b0000000400000009000000
   dislikes: 06000000070000000a000000
   startingDialogue: You are so skibidi. Just kidding. Don't block me please.
+  polaroid: {fileID: -58236378, guid: 59d651b6117bd0e4c885f46baa7ce95c, type: 3}

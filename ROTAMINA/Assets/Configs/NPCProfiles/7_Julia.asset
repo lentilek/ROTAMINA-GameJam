@@ -17,6 +17,8 @@ MonoBehaviour:
   profilePic: {fileID: 2105569855, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Julia
   oneLiner: I'm so Julia
+  introduction: If you ever wondered what I like. Remember one word. RELAX. Oh, and
+    I hate seafood btw.
   age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
   zodiac: {fileID: 11400000, guid: 4a8d12c5fe03230479a11c74c7c1b5fd, type: 2}
   gender: {fileID: 11400000, guid: d241427bca18970409dbc3cef5baee74, type: 2}
@@ -24,3 +26,4 @@ MonoBehaviour:
   likes: 020000000300000009000000
   dislikes: 0500000001000000
   startingDialogue: Oh, hi, hello. Glad to see you here!
+  polaroid: {fileID: 983007629, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}

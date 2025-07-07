@@ -17,6 +17,7 @@ MonoBehaviour:
   profilePic: {fileID: -2144667396, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Nomed
   oneLiner: Don't swipe me if you gonna waste my time.
+  introduction: Talk to me about something more meaningful than your dead goldfish.
   age: {fileID: 11400000, guid: 1728263db8d334147973f8db0b8c8d1b, type: 2}
   zodiac: {fileID: 11400000, guid: 2478f181ca8718e4c82bdea85081f351, type: 2}
   gender: {fileID: 11400000, guid: 5266e62ad9698af4399fe276018504c7, type: 2}
@@ -25,3 +26,4 @@ MonoBehaviour:
   dislikes: 050000000100000008000000
   startingDialogue: I decided to give you chance. I hope you didn't lie in your bio.
     Lots of liars nowadays.
+  polaroid: {fileID: 1935805534, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}

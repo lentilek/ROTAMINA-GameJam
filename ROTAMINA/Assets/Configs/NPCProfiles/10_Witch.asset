@@ -17,6 +17,8 @@ MonoBehaviour:
   profilePic: {fileID: -2065310580, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Luna
   oneLiner: I'm your mother
+  introduction: Being one with a nature is my true desire. This modern lifestyle
+    is separating us from our dearest mother. Don't be a fool, don't fall for it.
   age: {fileID: 11400000, guid: c61c32c5c86c18d4fa17b2364c7858df, type: 2}
   zodiac: {fileID: 11400000, guid: ee9266c9c59dec143a38e16e98acbd2b, type: 2}
   gender: {fileID: 11400000, guid: 5266e62ad9698af4399fe276018504c7, type: 2}
@@ -24,3 +26,4 @@ MonoBehaviour:
   likes: 0d0000000a0000000c000000
   dislikes: 080000000300000004000000
   startingDialogue: Hello my dear. Would you like me to tell you your future?
+  polaroid: {fileID: -239357270, guid: 59d651b6117bd0e4c885f46baa7ce95c, type: 3}

@@ -17,10 +17,13 @@ MonoBehaviour:
   profilePic: {fileID: 2101592612, guid: 296184676686a664e999b70e191cbc6c, type: 3}
   characterName: Arthur
   oneLiner: Save the horse...
+  introduction: I'll be honest I'm not so fimilliar with this technology. People
+    call me old fashioned and what can I say... I think it's true.
   age: {fileID: 11400000, guid: 1728263db8d334147973f8db0b8c8d1b, type: 2}
   zodiac: {fileID: 11400000, guid: 1fed3eb29faad2040bb8fded02cd21f7, type: 2}
   gender: {fileID: 11400000, guid: 28876639e861eff489eafc0a851be313, type: 2}
   personality: {fileID: 11400000, guid: 051484f06f316a14692b3b0e96b30e55, type: 2}
   likes: 0d0000000a000000000000000c000000
   dislikes: 080000000900000003000000
-  startingDialogue: Howdy partner! Wanna ride on my horse?
+  startingDialogue: Howdy partner! Wanna ride my horse?
+  polaroid: {fileID: -604560042, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}

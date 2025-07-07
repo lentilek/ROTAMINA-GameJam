@@ -17,6 +17,7 @@ MonoBehaviour:
   profilePic: {fileID: 1998295449, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Sky
   oneLiner: Rawr uwu XD
+  introduction: You can always find me at the local convention. See you there!
   age: {fileID: 11400000, guid: deb2c6b8efcb9a14fb902948246f8e78, type: 2}
   zodiac: {fileID: 11400000, guid: 845fc23c80b02d2428b5c82c78c8a176, type: 2}
   gender: {fileID: 11400000, guid: 5266e62ad9698af4399fe276018504c7, type: 2}
@@ -24,3 +25,4 @@ MonoBehaviour:
   likes: 07000000080000000b000000
   dislikes: 0600000004000000
   startingDialogue: Sfmsekfcnkandladsj Hewo owo
+  polaroid: {fileID: -1964842459, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}

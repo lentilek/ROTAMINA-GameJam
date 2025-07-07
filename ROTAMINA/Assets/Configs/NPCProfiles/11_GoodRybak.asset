@@ -17,6 +17,8 @@ MonoBehaviour:
   profilePic: {fileID: -1980329303, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Richard
   oneLiner: I know good local lakes
+  introduction: My favorite things? Everything that comes into your mind when you
+    think about fishes.
   age: {fileID: 11400000, guid: 1728263db8d334147973f8db0b8c8d1b, type: 2}
   zodiac: {fileID: 11400000, guid: b4bf9662d0ffb0641bd467f102726e8e, type: 2}
   gender: {fileID: 11400000, guid: 28876639e861eff489eafc0a851be313, type: 2}
@@ -24,3 +26,4 @@ MonoBehaviour:
   likes: 050000000d0000000c000000
   dislikes: 0800000000000000
   startingDialogue: Hello. I'm fishing right now. Nice to meet you. My name is Richard.
+  polaroid: {fileID: -289532221, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}

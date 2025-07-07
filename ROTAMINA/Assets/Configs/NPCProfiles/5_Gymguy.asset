@@ -17,6 +17,8 @@ MonoBehaviour:
   profilePic: {fileID: 1131470718, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
   characterName: Eric
   oneLiner: You can find me here -> Fitness Academy
+  introduction: I know I may look like a typical tough guy, but once you got to know
+    me I'll show you I have much more to offer.
   age: {fileID: 11400000, guid: c61c32c5c86c18d4fa17b2364c7858df, type: 2}
   zodiac: {fileID: 11400000, guid: cdb11a5d8955229498d5b6a4c32b7bdf, type: 2}
   gender: {fileID: 11400000, guid: 28876639e861eff489eafc0a851be313, type: 2}
@@ -24,3 +26,4 @@ MonoBehaviour:
   likes: 0600000000000000020000000b000000
   dislikes: 080000000100000009000000
   startingDialogue: Hey. You seem like a nice person.  I guess...
+  polaroid: {fileID: 1617054233, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}
