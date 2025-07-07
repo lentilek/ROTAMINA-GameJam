@@ -1,10 +1,8 @@
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
-using System.Xml.Serialization;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -46,7 +44,9 @@ public class SwipingUI : MonoBehaviour
     [SerializeField] private Image zodiacImageNPC;
     [SerializeField] private Image profilePicNPC;
     [HideInInspector] public List<NPCProfile> chosenProfiles = new List<NPCProfile>();
+    [SerializeField] private GameObject npcDataAll;
 
+    private NPCProfile currentProfile;
     [HideInInspector] public int chancesUsed;
     [SerializeField] private GameObject finalPart;
     private void Awake()
@@ -99,6 +99,7 @@ public class SwipingUI : MonoBehaviour
     }
     private void FillProfile(NPCProfile profile)
     {
+        currentProfile = profile;
         npcPic.sprite = profile.art;
         npcDataTXT.text = $"{profile.characterName}, {profile.age.text}";
         npcOneLinerTXT.text = profile.oneLiner;
@@ -175,6 +176,24 @@ public class SwipingUI : MonoBehaviour
         if (tempPoints >= 0) return true;
         else return false;
     }
+    public void HoverShowProfile()
+    {
+        charNameTXTNPC.text = currentProfile.characterName;
+        profilePicNPC.sprite = currentProfile.profilePic;
+        ageTXTNPC.text = currentProfile.age.text;
+        genTXTNPC.text = currentProfile.gender.text;
+        zodTXTNPC.text = currentProfile.zodiac.text;
+        zodiacImageNPC.sprite = currentProfile.zodiac.sprite;
+        persTXTNPC.text = currentProfile.personality.text;
+        string likesText = CreateLikesList(currentProfile.likes.ToArray());
+        string dislikesText = CreateLikesList(currentProfile.dislikes.ToArray());
+        likesTXTNPC.text = $"Likes: {likesText}\n\nDislikes: {dislikesText}";
+        npcDataAll.SetActive(true);
+    }
+    public void HideProfile()
+    {
+        npcDataAll.SetActive(false);
+    }
     private void NPCDataIN(int index)
     {
         charNameTXTNPC.text = chosenProfiles[index].characterName;
@@ -188,6 +207,7 @@ public class SwipingUI : MonoBehaviour
         string dislikesText = CreateLikesList(chosenProfiles[index].dislikes.ToArray());
         likesTXTNPC.text = $"Likes: {likesText}\n\nDislikes: {dislikesText}";
         DialogueSystem.Instance.npc = chosenProfiles[index];
+        npcDataAll.SetActive(true);
         StartCoroutine(DialogueSystem.Instance.ConversationStart());
     }
     public void ChanceImage(bool positive)
