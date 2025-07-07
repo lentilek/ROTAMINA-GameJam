@@ -1,0 +1,1275 @@
+fileFormatVersion: 2
+guid: 223b90b8e9d519b48a673a2eabeb452c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UIGameEnd_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 4582
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51716bbf1ea465f48a67b92338c2cf68
+      internalID: -455561797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_1
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 4638
+        width: 1065
+        height: 878
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee552409d252a5e478614bd7ab8c9a92
+      internalID: 1266370594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 3447
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5479b39c321244f8b0f3006c4c2a2b
+      internalID: 811808078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_9
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 4147
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c0d38be4d5fb14b822460f18cec914
+      internalID: 1964365705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_10
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 4147
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3492fcdef06ff438f5bdcb6bde5cb1
+      internalID: -27926831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_11
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 4147
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822fce4bf22d1164b9f4f67de3469c2e
+      internalID: 1935805534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_12
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 4147
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c370ad09311aa984082907481dc78b43
+      internalID: -58236378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_13
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 4147
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402c71df6ae35db4bbefb000830c78f1
+      internalID: -1964842459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_14
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 3715
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93f509bfc522e34896c47dc0dd43f60
+      internalID: 1617054233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_15
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 3715
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6f1ac17a6211647b9a6284f768e55b
+      internalID: -1381826208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_16
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 3715
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef04196f4158bc4d9b225bff05280d2
+      internalID: 983007629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_17
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 3715
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7f3fc1f4da5c14ba0b6d137624a357
+      internalID: -698428299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_18
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 3715
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2d48f97df80e14ba5e3b93c0798daa
+      internalID: -408243806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_19
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2311
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42957c3669d94774680d792d182b1d47
+      internalID: 1358827181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_20
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 3283
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978b5cd018785d749a3f284a37bda690
+      internalID: -239357270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_21
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 3283
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3a4ed76b055d74d87be9c5ab4d2c39
+      internalID: -289532221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_22
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 3283
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326f262e89097964bba4400b3d196fb6
+      internalID: -1947218533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_23
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 3283
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66ef7667ad6557489ad076c65dab587
+      internalID: -95718240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_24
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 3283
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dc542a1f7c3164d9d4dd019dc41d66
+      internalID: 976788044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_25
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 2851
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4dc131ee9e1924983d2c233c5a6934
+      internalID: 1557773952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_26
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 2851
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363ec8438a64de5439e3eaf65cfd482c
+      internalID: -346224011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_27
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 2851
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d77abdef6b413248b979731a48ae5b2
+      internalID: -604560042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_28
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 2851
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d531e40a5fbe20847839c5ec3103fc1d
+      internalID: -1427590516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_29
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 2851
+        width: 399
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f773bf3d3760444aa872e72657329b8
+      internalID: -422433767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_30
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 2312
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55940096630e019409ab0cb3bee8beca
+      internalID: -1783524412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_33
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1175
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6576634719b0cf94cae9401b625a4d50
+      internalID: 2073124933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_34
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 1830
+        width: 420
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899748900ce25644fbbf6c3c7f4f7b6c
+      internalID: -958360308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_39
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1528
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec6e170cb2f09341b33b9c8c93c793e
+      internalID: -939640140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_40
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 41
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4201b5419ce567e4787a1f3582e942a7
+      internalID: -1190985906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_41
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 1075
+        width: 250
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4c44cdecc65044086c6f5fe68fa26c
+      internalID: -2064944109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_44
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 792
+        width: 160
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f9d785d748e734282cf227c705d76d
+      internalID: -1886675471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_2
+      rect:
+        serializedVersion: 2
+        x: 3515
+        y: 5339
+        width: 435
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5579e3c5a493e3488c89c9a2240fe06
+      internalID: -215904443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_3
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 5052
+        width: 435
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8d85ff9b8999146b41a983026a5fc3
+      internalID: -591913370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_4
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 4766
+        width: 435
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225460ac476cb594a8b71eb262aed9d6
+      internalID: 648439274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_5
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 2305
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62d9d1698020544c83b1577f8188520
+      internalID: 1377518773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_6
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 2305
+        width: 480
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ce4df7c22c1da49b45c3b2c75e5312
+      internalID: -1885691791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_7
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 1826
+        width: 420
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba517d4bc9dd3eb4488f9caca154ae7d
+      internalID: 96403565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_31
+      rect:
+        serializedVersion: 2
+        x: 3016
+        y: 1822
+        width: 420
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d32f06524cb32740b92602a4d1a3458
+      internalID: 597276942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_32
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 1525
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c1fae0b0120bb4cbf193429bd40b3e
+      internalID: -1555827111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_35
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 1528
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf59a8e9c93f5944a128a9b2c730f27
+      internalID: -1474769521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_36
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1074
+        width: 250
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9156545aaab8f1741b4ef4302ab37ad9
+      internalID: 945579464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_37
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 1074
+        width: 250
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f553b97529267f243b7a30319b2b5cfa
+      internalID: 1050484063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_38
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 791
+        width: 160
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2e58288bf057840b048bee2329c5db
+      internalID: 1853231918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_42
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 787
+        width: 160
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053ea4d7435aec747afc980f7e853e50
+      internalID: 770886832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_43
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 346
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d264633ad9f7540ad288f9b28808d3
+      internalID: -1356253117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_45
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 344
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6675d5b2b894ef479dfbd2b0678dd7e
+      internalID: 1986476685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_46
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 341
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dc2f23cb73d4e4cb9c5749b2482683
+      internalID: 455036315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_47
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 34
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d247745c6fc492c4e8847f1a733ff906
+      internalID: -1402940498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_48
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 29
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a4f3144fac3274fa7e140d2f379f69
+      internalID: -732252045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UIGameEnd_49
+      rect:
+        serializedVersion: 2
+        x: 2781
+        y: 28
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca1c37291e2d70469c9fe1f516bf40e
+      internalID: 474852475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2f9ee273e2a5db54588c47bd02261c5d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UIGameEnd_0: -455561797
+      UIGameEnd_1: 1266370594
+      UIGameEnd_10: -27926831
+      UIGameEnd_11: 1935805534
+      UIGameEnd_12: -58236378
+      UIGameEnd_13: -1964842459
+      UIGameEnd_14: 1617054233
+      UIGameEnd_15: -1381826208
+      UIGameEnd_16: 983007629
+      UIGameEnd_17: -698428299
+      UIGameEnd_18: -408243806
+      UIGameEnd_19: 1358827181
+      UIGameEnd_2: -215904443
+      UIGameEnd_20: -239357270
+      UIGameEnd_21: -289532221
+      UIGameEnd_22: -1947218533
+      UIGameEnd_23: -95718240
+      UIGameEnd_24: 976788044
+      UIGameEnd_25: 1557773952
+      UIGameEnd_26: -346224011
+      UIGameEnd_27: -604560042
+      UIGameEnd_28: -1427590516
+      UIGameEnd_29: -422433767
+      UIGameEnd_3: -591913370
+      UIGameEnd_30: -1783524412
+      UIGameEnd_31: 597276942
+      UIGameEnd_32: -1555827111
+      UIGameEnd_33: 2073124933
+      UIGameEnd_34: -958360308
+      UIGameEnd_35: -1474769521
+      UIGameEnd_36: 945579464
+      UIGameEnd_37: 1050484063
+      UIGameEnd_38: 1853231918
+      UIGameEnd_39: -939640140
+      UIGameEnd_4: 648439274
+      UIGameEnd_40: -1190985906
+      UIGameEnd_41: -2064944109
+      UIGameEnd_42: 770886832
+      UIGameEnd_43: -1356253117
+      UIGameEnd_44: -1886675471
+      UIGameEnd_45: 1986476685
+      UIGameEnd_46: 455036315
+      UIGameEnd_47: -1402940498
+      UIGameEnd_48: -732252045
+      UIGameEnd_49: 474852475
+      UIGameEnd_5: 1377518773
+      UIGameEnd_50: -1880395228
+      UIGameEnd_51: -1248436918
+      UIGameEnd_52: -9958051
+      UIGameEnd_53: -843810381
+      UIGameEnd_54: -25113299
+      UIGameEnd_55: 1208855006
+      UIGameEnd_56: 488766039
+      UIGameEnd_57: -1633068282
+      UIGameEnd_6: -1885691791
+      UIGameEnd_7: 96403565
+      UIGameEnd_8: 811808078
+      UIGameEnd_9: 1964365705
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
