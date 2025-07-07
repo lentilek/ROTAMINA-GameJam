@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 068cdc55c034507489dec40d588b42db, type: 3}
-  m_Name: 11_GoodRybak
+  m_Name: 17_Cowboy
   m_EditorClassIdentifier: 
-  npcIndex: 11
-  art: {fileID: -314213256, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
-  profilePic: {fileID: -1980329303, guid: ec18cbdaa42e14041958f18fb2b0b746, type: 3}
-  characterName: Richard
-  oneLiner: I know good local lakes
+  npcIndex: 17
+  art: {fileID: -15908439, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
+  profilePic: {fileID: 2101592612, guid: 296184676686a664e999b70e191cbc6c, type: 3}
+  characterName: Arthur
+  oneLiner: Save the horse...
   age: {fileID: 11400000, guid: 1728263db8d334147973f8db0b8c8d1b, type: 2}
-  zodiac: {fileID: 11400000, guid: b4bf9662d0ffb0641bd467f102726e8e, type: 2}
+  zodiac: {fileID: 11400000, guid: 1fed3eb29faad2040bb8fded02cd21f7, type: 2}
   gender: {fileID: 11400000, guid: 28876639e861eff489eafc0a851be313, type: 2}
   personality: {fileID: 11400000, guid: 051484f06f316a14692b3b0e96b30e55, type: 2}
-  likes: 050000000d0000000c000000
-  dislikes: 0800000000000000
-  startingDialogue: Hello. I'm fishing right now. Nice to meet you. My name is Richard.
+  likes: 0d0000000a000000000000000c000000
+  dislikes: 080000000900000003000000
+  startingDialogue: Howdy partner! Wanna ride on my horse?

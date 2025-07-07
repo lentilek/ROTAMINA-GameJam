@@ -3283,14 +3283,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDialogues:
   - Hi.
+  - Let's chat.
+  - Hi! Let's get to know each other!
+  - Hello, nice to meet you!
+  - Hello there!
   interestDialogues:
   - {fileID: 11400000, guid: d3a4d406f662aa54399f369c6f7786a0, type: 2}
   typeDialogues:
   - {fileID: 11400000, guid: 87ef773aeaf545d44a567d2c1aa19c41, type: 2}
   endDialoguesPos:
-  - I hope we meet again
+  - That was really nice. I hope we talk again soon.
+  - 'Great talking. Let''s meet each other! '
+  - I didn't expect to meet someone like that here! Let's hang out!
+  - God, I love the vibe we have! Maybe we should meet each other?
+  - I really would love to see you in person. What do you think?
+  - It was great to get to know you
   endDialoguesNeg:
   - Shut up.
+  - STOP TALKING TO ME
+  - Let's not do that again. NEVER
+  - What a waste of time... Get lost
+  - THIS USER HAS BLOCKED YOU
   dialogueStart: {fileID: 7983836152546823061}
   dialogueStart2: {fileID: 8234399897261544896}
   dialogueEnd: {fileID: 5909847235071630707}
@@ -4816,6 +4829,23 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3397a07305dad304f991ff3afd5d9179, type: 2}
   - {fileID: 11400000, guid: 8afdd3a2d16cfb946b649dae56c0c61e, type: 2}
   - {fileID: 11400000, guid: e707218373605f546a1aa9ea7333a635, type: 2}
+  - {fileID: 11400000, guid: 1c929dbe69d276649adcd56e0ef90dd6, type: 2}
+  - {fileID: 11400000, guid: 18adb5d05c6eba040b5c7b732908cac2, type: 2}
+  - {fileID: 11400000, guid: eccd7ba3b2cbca44b83c1a53c4f8c318, type: 2}
+  - {fileID: 11400000, guid: f6fbeaf456d757142807912901324655, type: 2}
+  - {fileID: 11400000, guid: a16b3f3e3875c9241874f87b7f7219ae, type: 2}
+  - {fileID: 11400000, guid: b55ee456f6be1314081653917cc2f457, type: 2}
+  - {fileID: 11400000, guid: c4dd503ed5a106046a3fb23a73e83916, type: 2}
+  - {fileID: 11400000, guid: fb1df2cfe85f7cc4a94325926293f8c8, type: 2}
+  - {fileID: 11400000, guid: 65f1e79faa692c845b00d88f75508593, type: 2}
+  - {fileID: 11400000, guid: 7506e03304c29544c8bfba5ee7b63b2e, type: 2}
+  - {fileID: 11400000, guid: 203c8a64783715e4ab406ca5fc3f00b3, type: 2}
+  - {fileID: 11400000, guid: 8e983838bc423bc41a587d310628f6c6, type: 2}
+  - {fileID: 11400000, guid: 8c4ece14864c1234ea33a9da7eb049f6, type: 2}
+  - {fileID: 11400000, guid: 4e72c21cf1c03684f9ab39976212b103, type: 2}
+  - {fileID: 11400000, guid: 0585eae3a2f980d40a278cb42b901389, type: 2}
+  - {fileID: 11400000, guid: e40dd98532fabae4092bbb9a9193ae9c, type: 2}
+  - {fileID: 11400000, guid: cada57b581eacda46a9c63cd4e29183e, type: 2}
   npcProfile: {fileID: 8842667130918985681}
   npcPic: {fileID: 6560355476878117353}
   npcDataTXT: {fileID: 6299453189492015713}

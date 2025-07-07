@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068cdc55c034507489dec40d588b42db, type: 3}
+  m_Name: 15_Bri'ishGal
+  m_EditorClassIdentifier: 
+  npcIndex: 15
+  art: {fileID: -1315729411, guid: 0be385751ea3c29418834b2be797db7c, type: 3}
+  profilePic: {fileID: -423324715, guid: 296184676686a664e999b70e191cbc6c, type: 3}
+  characterName: Jessica
+  oneLiner: I'm not going on fish&chips date, love
+  age: {fileID: 11400000, guid: c61c32c5c86c18d4fa17b2364c7858df, type: 2}
+  zodiac: {fileID: 11400000, guid: ffba6462641f67b40a28d6ec20bf1c84, type: 2}
+  gender: {fileID: 11400000, guid: d241427bca18970409dbc3cef5baee74, type: 2}
+  personality: {fileID: 11400000, guid: 86466aeda0a89684cac7a01ee47a8ad5, type: 2}
+  likes: 01000000000000000700000008000000
+  dislikes: 0c00000006000000
+  startingDialogue: Gosh I have so many notifactions on this app I almost missed
+    yours lol
