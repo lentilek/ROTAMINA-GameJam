@@ -606,7 +606,7 @@ MonoBehaviour:
   pic: {fileID: 1696921257170727717}
   npcName: {fileID: 3310211990230357160}
   button: {fileID: 3309102750384770639}
-  emptySprite: {fileID: -1402940498, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}
+  emptySprite: {fileID: -732252045, guid: 223b90b8e9d519b48a673a2eabeb452c, type: 3}
 --- !u!1 &3311796639518528574
 GameObject:
   m_ObjectHideFlags: 0

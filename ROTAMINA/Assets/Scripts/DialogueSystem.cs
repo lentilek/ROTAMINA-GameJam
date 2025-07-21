@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -101,6 +103,7 @@ public class DialogueSystem : MonoBehaviour
                 break;
             default: break;
         }
+        EventSystem.current.SetSelectedGameObject(null);
     }
     private IEnumerator EndTalk(string text)
     {
@@ -143,11 +146,11 @@ public class DialogueSystem : MonoBehaviour
         AudioManager.Instance.PlaySound("receive");
         yield return new WaitForSeconds(.5f);
         int i = 0;
-        AudioManager.Instance.PlaySound("send");
         foreach (GameObject go in dialogueOptions)
         {
             dialogueOptionsTXT[i].text = dialogue.choicesTXT[i];
             go.GetComponent<CanvasGroup>().DOFade(1, .5f);
+            go.GetComponentInChildren<Button>().enabled = true;
             i++;
         }
     }
@@ -156,8 +159,9 @@ public class DialogueSystem : MonoBehaviour
         for(int i = 0; i < currentDialogue.choicesTXT.Length; i++)
         {
             if (i != index) dialogueOptions[i].GetComponent<CanvasGroup>().DOFade(0, .3f);
-            AudioManager.Instance.PlaySound("receive");
+            else dialogueOptions[i].GetComponentInChildren<Button>().enabled = false;
         }
+        AudioManager.Instance.PlaySound("send");
         /// count points
         int prevPoints = points;
         if (stage == 1 || stage == 3)
@@ -198,6 +202,7 @@ public class DialogueSystem : MonoBehaviour
         }
         else dialogueEndTXT.text = currentDialogue.conversationEndOptionsNegative[Random.Range(0, currentDialogue.conversationEndOptionsNegative.Length)];
         StartCoroutine(WaitForMessageEnd());
+        EventSystem.current.SetSelectedGameObject(null);
     }
     IEnumerator WaitForMessageEnd()
     {

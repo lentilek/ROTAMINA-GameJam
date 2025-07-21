@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -15,7 +16,7 @@ public class SwipingUI : MonoBehaviour
     [SerializeField] private Image profilePic;
     [SerializeField] private TextMeshProUGUI charNameTXT;
     [SerializeField] private TextMeshProUGUI ageTXT, genTXT, zodTXT, persTXT, likesTXT;
-    [SerializeField] private Image zodiacImage;
+    [SerializeField] private Image genderImage, zodiacImage;
     [SerializeField] private Image[] chancesImages;
     [SerializeField] private Sprite[] chancesOptions;
 
@@ -41,7 +42,7 @@ public class SwipingUI : MonoBehaviour
     [Header("NPC data")]
     [SerializeField] private TextMeshProUGUI charNameTXTNPC;
     [SerializeField] private TextMeshProUGUI ageTXTNPC, genTXTNPC, zodTXTNPC, persTXTNPC, likesTXTNPC;
-    [SerializeField] private Image zodiacImageNPC;
+    [SerializeField] private Image genderImageNPC, zodiacImageNPC;
     [SerializeField] private Image profilePicNPC;
     [HideInInspector] public List<NPCProfile> chosenProfiles = new List<NPCProfile>();
     [SerializeField] private GameObject npcDataAll;
@@ -71,6 +72,7 @@ public class SwipingUI : MonoBehaviour
         charNameTXT.text = charProf.characterName;
         ageTXT.text = charProf.age.text;
         genTXT.text = charProf.gender.text;
+        genderImage.sprite = charProf.gender.sprite;
         zodTXT.text = charProf.zodiac.text;
         zodiacImage.sprite = charProf.zodiac.sprite;
         persTXT.text = charProf.personality.text;
@@ -127,6 +129,7 @@ public class SwipingUI : MonoBehaviour
         {
             RandomizeProfiles();
         }
+        EventSystem.current.SetSelectedGameObject(null);
     }
     public void RightButton()
     {
@@ -141,6 +144,7 @@ public class SwipingUI : MonoBehaviour
         int index = profiles.Count - 1;
         chosenProfiles.Add(profiles[index]);
         profiles.RemoveAt(index);
+        EventSystem.current.SetSelectedGameObject(null);
 
         // matching
         if (CheckIfMatched(chosenProfiles[chosenProfiles.Count - 1]))
@@ -194,6 +198,7 @@ public class SwipingUI : MonoBehaviour
         profilePicNPC.sprite = currentProfile.profilePic;
         ageTXTNPC.text = currentProfile.age.text;
         genTXTNPC.text = currentProfile.gender.text;
+        genderImageNPC.sprite = currentProfile.gender.sprite;
         zodTXTNPC.text = currentProfile.zodiac.text;
         zodiacImageNPC.sprite = currentProfile.zodiac.sprite;
         persTXTNPC.text = currentProfile.personality.text;
@@ -213,6 +218,7 @@ public class SwipingUI : MonoBehaviour
         profilePicNPC.sprite = chosenProfiles[index].profilePic;
         ageTXTNPC.text = chosenProfiles[index].age.text;
         genTXTNPC.text = chosenProfiles[index].gender.text;
+        genderImageNPC.sprite = chosenProfiles[index].gender.sprite;
         zodTXTNPC.text = chosenProfiles[index].zodiac.text;
         zodiacImageNPC.sprite = chosenProfiles[index].zodiac.sprite;
         persTXTNPC.text = chosenProfiles[index].personality.text;

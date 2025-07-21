@@ -1,11 +1,12 @@
-using TMPro;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-using UnityEngine.Serialization;
-using System.Collections;
 using DG.Tweening;
+using System.Collections;
+using TMPro;
 using Unity.VisualScripting;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class CharacterCreator : MonoBehaviour
 {
@@ -55,6 +56,7 @@ public class CharacterCreator : MonoBehaviour
         if (currentPicIndex >= profilePics.Length) currentPicIndex = 0;
         profilePic.sprite = profilePics[currentPicIndex];
         charProf.profilePic = profilePics[currentPicIndex];
+        EventSystem.current.SetSelectedGameObject(null);
     }
     public void CharName()
     {
@@ -100,6 +102,7 @@ public class CharacterCreator : MonoBehaviour
                 charProf.dislikes.Remove(likeNumber);
             }
         }
+        EventSystem.current.SetSelectedGameObject(null);
     }
     private void CharacterProfileReset()
     {
