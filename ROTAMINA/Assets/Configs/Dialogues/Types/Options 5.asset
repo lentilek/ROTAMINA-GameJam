@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
+  m_Name: Options 5
+  m_EditorClassIdentifier: 
+  conversationStart:
+  - You seem like a very peacful person.
+  - You are such a fun and optimistic person!
+  - It seems like you are not avoiding challenges in your life.
+  - Am I talking with an old soul?
+  choicesTXT:
+  - "Is there a passion you\u2019ve had for a long time that still drives you today?"
+  - Do you enjoy spending time alone, or does it depend on your mood?
+  - What makes you happy the most?
+  - Do you like spending time in nature?
+  interstType: 0
+  optionRelatedIndex: 01000000030000000200000000000000
+  conversationEndOptionsPos:
+  - There are definitely interests that have stayed with me over the years but it's
+    a topic for a different conversation
+  - "There\u2019s a certain calm that comes with solitude, but it really depends.
+    Sometimes strong connection is just as grounding as quiet."
+  - "It\u2019s often the small, spontaneous things- moments that feel real, shared
+    laughter, or when something unexpectedly brightens the day."
+  - I like places where I can relax and find some peace and quiet. Not the biggest
+    fan of all those crowded places with tons of people.
+  conversationEndOptionsNeutral:
+  - I'm not really into that.
+  - That's a difficult question...
+  - I don't know.
+  - This is... complicated.
+  - I've never thought about that to be honest.
+  conversationEndOptionsNegative:
+  - What kind of question is that?!
+  - Let's talk about something else, shall we?
+  - How am I spoused to know?!
+  - This conversation is getting boring...
+  - ...are you a weirdo?

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
+  m_Name: Options 2
+  m_EditorClassIdentifier: 
+  conversationStart:
+  - You seem like a very peacful person.
+  - You are such a fun and optimistic person!
+  - It seems like you are not avoiding challenges in your life.
+  - Am I talking with an old soul?
+  choicesTXT:
+  - Do you enjoy activites like gardening or drawing?
+  - Do you have a favorite way to make others laugh?
+  - What kind of goals do you find most fulfilling to pursue?
+  - Do you have a place where you go to feel calm and clear your mind?
+  interstType: 0
+  optionRelatedIndex: 02000000000000000100000003000000
+  conversationEndOptionsPos:
+  - I appreciate activities that give me space to focus quietly and be present. Things
+    like that can be really grounding when the pace of life picks up.
+  - I usually try to read the room and go with the flow. Sometimes a quick joke or
+    just giving someone genuine attention can make a big difference.
+  - Mostly those that require a mix of strategy, focus, and personal growth - ones
+    that feel meaningful beyond just checking a box.
+  - "There are a few spots that seem to bring a sense of quiet, whether it\u2019s
+    somewhere in nature or just a familiar, peaceful corner."
+  conversationEndOptionsNeutral:
+  - I'm not really into that.
+  - That's a difficult question...
+  - I don't know.
+  - This is... complicated.
+  - I've never thought about that to be honest.
+  conversationEndOptionsNegative:
+  - What kind of question is that?!
+  - Let's talk about something else, shall we?
+  - How am I spoused to know?!
+  - This conversation is getting boring...
+  - ...are you a weirdo?

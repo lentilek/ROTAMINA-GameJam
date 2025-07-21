@@ -1,4 +1,0 @@
-repository "ROTAMINA 2025-07-05_14-50-28/ROTAMINA@7971791444781@cloud"
-  path "/"
-    br "/main"
-    co "/main"

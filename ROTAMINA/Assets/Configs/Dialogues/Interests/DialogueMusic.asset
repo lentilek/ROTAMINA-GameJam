@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
+  m_Name: DialogueMusic
+  m_EditorClassIdentifier: 
+  conversationStart:
+  - So, you must like music right? What's your favorite music genre?
+  choicesTXT:
+  - My favorites are RnB and funk but I also like to listen to some classic rock
+    or hip hop!
+  - Yeah, I basically like every music genere. Nothing specific. think there is something
+    I can recommend to you. I don't play as much as you
+  - Well, I am only listening to the radio...
+  - What is music genere??
+  interstType: 2
+  optionRelatedIndex: 
+  conversationEndOptionsPos:
+  - Ha, yeah
+  conversationEndOptionsNeutral:
+  - Oh, okay
+  conversationEndOptionsNegative:
+  - ...are you serious?

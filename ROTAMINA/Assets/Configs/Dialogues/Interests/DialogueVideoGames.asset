@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
+  m_Name: DialogueVideoGames
+  m_EditorClassIdentifier: 
+  conversationStart:
+  - I'm very bored lately. Do you know any cool games that I could check out?
+  choicesTXT:
+  - Oh I have a perfect game that we can play together~
+  - I don't think there is something I can recommend to you. I don't play as much
+    as you
+  - Not really into games. Sorry
+  - Why would you waste your time on that?
+  interstType: 9
+  optionRelatedIndex: 
+  conversationEndOptionsPos:
+  - You're the best
+  conversationEndOptionsNeutral:
+  - It was still worth a shot
+  conversationEndOptionsNegative:
+  - Why am I even asking you :v

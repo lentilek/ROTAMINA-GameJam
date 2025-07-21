@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
+  m_Name: DialogueSport
+  m_EditorClassIdentifier: 
+  conversationStart:
+  - Are you going to the gym? Or doing any sports?
+  choicesTXT:
+  - I'm an active member actually. I've been going for a few years
+  - I go jogging regularly. It helps me clear my mind
+  - I'm not that active, but I do like watching sports
+  - I prefer staying in bed, to be honest
+  interstType: 6
+  optionRelatedIndex: 
+  conversationEndOptionsPos:
+  - Me too! We could support each other
+  conversationEndOptionsNeutral:
+  - It's better than nothing
+  conversationEndOptionsNegative:
+  - Oh no, really?

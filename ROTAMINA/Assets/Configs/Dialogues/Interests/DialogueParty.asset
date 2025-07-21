@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
+  m_Name: DialogueParty
+  m_EditorClassIdentifier: 
+  conversationStart:
+  - ' I''ve heard there is this big party soon. Would you like to go there with me?'
+  choicesTXT:
+  - Seems fun. I may give it a try
+  - I don't know. Can't promise anything
+  - "Sounds really fun, but I\u2019ve got too much going on right now"
+  - No. I hate those. It's just not for me
+  interstType: 8
+  optionRelatedIndex: 
+  conversationEndOptionsPos:
+  - You're so right
+  conversationEndOptionsNeutral:
+  - Okay
+  conversationEndOptionsNegative:
+  - Shame

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3421a99b2e8ed44e87a3867cfbd108e, type: 3}
+  m_Name: DialogueMovies
+  m_EditorClassIdentifier: 
+  conversationStart:
+  - So... Do you enjoy going on movie dates?
+  choicesTXT:
+  - I can make you enjoy those dates even more ;)s even more ;)
+  - Not really. Only when I really like the movie
+  - Sometimes, but I need to be in the right mood
+  - Not really. Just not my thing
+  interstType: 3
+  optionRelatedIndex: 
+  conversationEndOptionsPos:
+  - Haha, I feel you
+  conversationEndOptionsNeutral:
+  - Okay...?
+  conversationEndOptionsNegative:
+  - o-o
