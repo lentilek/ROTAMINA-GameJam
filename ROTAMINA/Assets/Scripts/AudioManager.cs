@@ -1,12 +1,12 @@
+using System.Collections;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
 
-    private AudioSource audioSource;
+    [SerializeField] private AudioSource audioSource, audioVibration;
     [SerializeField] private AudioClip matched, nope, unmatched, success, receiveMessage, sendMessage;
-    [SerializeField] private AudioClip vibration;
     [SerializeField] private AudioClip[] uiClick;
     private void Awake()
     {
@@ -18,9 +18,9 @@ public class AudioManager : MonoBehaviour
         }
         Destroy(gameObject);
     }
-    private void Start()
+    private void Update()
     {
-        audioSource = GetComponent<AudioSource>();
+        audioVibration.volume = audioSource.volume / 4;
     }
     public void PlaySound(string clip)
     {
@@ -51,8 +51,19 @@ public class AudioManager : MonoBehaviour
     {
         audioSource.PlayOneShot(uiClick[Random.Range(0, uiClick.Length)]);
     }
-    public void Vinrations()
+    /*public IEnumerator Vibrations()
     {
-        audioSource.PlayOneShot(vibration);
+        audioVibration.Play();
+        yield return new WaitForSeconds(1.03f);
+        StartCoroutine(Vibrations());
+    }*/
+    public void Vibrations()
+    {
+        audioVibration.Play();
+    }
+    public void VibrationsStop()
+    {
+        StopAllCoroutines();
+        audioVibration.Stop();
     }
 }
