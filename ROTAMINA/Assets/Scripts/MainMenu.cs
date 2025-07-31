@@ -11,11 +11,11 @@ public class MainMenu : MonoBehaviour
     private void Start()
     {
         //StartCoroutine(AudioManager.Instance.Vibrations());
-        AudioManager.Instance.Vibrations();
+        //AudioManager.Instance.Vibrations();
     }
     public void StartGame()
     {
-        AudioManager.Instance.VibrationsStop();
+        //AudioManager.Instance.VibrationsStop();
         AudioManager.Instance.ClickSound();
         SceneManager.LoadScene(1);
     }
